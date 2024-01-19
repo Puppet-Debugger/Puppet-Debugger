@@ -1,0 +1,1784 @@
+[Thread Manager] Thread IDs: {2000}
+Saved context: fs=0x0 tls=0x0
+Set fsbase to 0x0 for [Thread 2000]
+Restored context: fs=0x0 tls=0x0
+Scheduled from 0x7ffff7dd6090.
+0x00007ffff7df0ec7: brk(inp = 0x0) = 0x55555555b000
+0x00007ffff7df2015: uname(buf = 0x80000000d990) = 0x0
+access("/etc/ld.so.nohwcap", 00) = -1
+0x00007ffff7de47dc: access(path = 0x7ffff7df6082, mode = 0x0) = -0x1 (EPERM)
+access("/etc/ld.so.preload", 04) = -1
+0x00007ffff7df1e25: access(path = 0x7ffff7df8dd0, mode = 0x4) = -0x1 (EPERM)
+openat(4294967196, "/etc/ld.so.cache", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x7ffff7df6428, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+openat(4294967196, "/lib/x86_64-linux-gnu/tls/i686/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/tls/i686/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/tls/i686/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/tls/i686", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/tls/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/tls/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/tls", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/i686/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/i686/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/i686/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/i686", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/tls/i686/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/tls/i686/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/tls/i686/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/tls/i686", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/tls/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/tls/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/tls", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/i686/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/i686/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/i686/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/i686", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/tls/i686/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/tls/i686/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/tls/i686/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/tls/i686", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/tls/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/tls/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/tls/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/tls", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/i686/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/i686/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/i686/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/i686", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/libc.so.6", 0x80000, 00) = 3
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = 0x3
+read() CONTENT: b'\x7fELF\x02\x01\x01\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00>\x00\x01\x00\x00\x00\xc0A\x02\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\x18\xe7\x1e\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x008\x00\x0e\x00@\x00D\x00C\x00\x06\x00\x00\x00\x04\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x18P\x00\x00\x00\x00\x00\x00\xd8\x8e\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x80\xab\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x90\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00S\xe5td\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00P\xe5td\x04\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00Q\xe5td\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00R\xe5td\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00x8\x00\x00\x00\x00\x00\x00'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000d548, length = 0x340) = 0x340
+lseek(3, 0x40, 0) = 64
+0x00007ffff7df1df5: lseek(fd = 0x3, offset = 0x40, origin = 0x0) = 0x40
+read() CONTENT: b'\x06\x00\x00\x00\x04\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x18P\x00\x00\x00\x00\x00\x00\xd8\x8e\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x80\xab\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x90\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00S\xe5td\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00P\xe5td\x04\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00Q\xe5td\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00R\xe5td\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00x8\x00\x00\x00\x00\x00\x00x8\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000cf80, length = 0x310) = 0x310
+lseek(3, 0x350, 0) = 848
+0x00007ffff7df1df5: lseek(fd = 0x3, offset = 0x350, origin = 0x0) = 0x350
+read() CONTENT: b'\x04\x00\x00\x00\x10\x00\x00\x00\x05\x00\x00\x00GNU\x00\x02\x00\x00\xc0\x04\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000cf50, length = 0x20) = 0x20
+lseek(3, 0x370, 0) = 880
+0x00007ffff7df1df5: lseek(fd = 0x3, offset = 0x370, origin = 0x0) = 0x370
+read() CONTENT: b"\x04\x00\x00\x00\x14\x00\x00\x00\x03\x00\x00\x00GNU\x00\x18x\xe6\xb4ur\x0c|Q\x96\x9ei\xab-'o\xaem\x1d\xee\x04\x00\x00\x00\x10\x00\x00\x00\x01\x00\x00\x00GNU\x00\x00\x00\x00\x00\x03\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00"
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000cef0, length = 0x44) = 0x44
+0x00007ffff7df1c41: fstat(fd = 0x3, buf_ptr = 0x80000000d3e0) = 0x0
+lseek(3, 0x40, 0) = 64
+0x00007ffff7df1df5: lseek(fd = 0x3, offset = 0x40, origin = 0x0) = 0x40
+read() CONTENT: b'\x06\x00\x00\x00\x04\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x18P\x00\x00\x00\x00\x00\x00\xd8\x8e\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x80\xab\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x90\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00S\xe5td\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00P\xe5td\x04\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00Q\xe5td\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00R\xe5td\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00x8\x00\x00\x00\x00\x00\x00x8\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000d040, length = 0x310) = 0x310
+0x00007ffff7df1f41: mmap(addr = 0x0, length = 0x1f1660, prot = 0x1, flags = 0x802, fd = 0x3, pgoffset = 0x0) = 0x7fffb7dd6000
+mmap: unmapping memory between 0x7fffb7df8000-0x7fffb7f70000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7df8000, length = 0x178000, prot = 0x5, flags = 0x812, fd = 0x3, pgoffset = 0x22000) = 0x7fffb7df8000
+mmap: unmapping memory between 0x7fffb7f70000-0x7fffb7fbe000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7f70000, length = 0x4e000, prot = 0x1, flags = 0x812, fd = 0x3, pgoffset = 0x19a000) = 0x7fffb7f70000
+mmap: unmapping memory between 0x7fffb7fbe000-0x7fffb7fc4000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7fbe000, length = 0x6000, prot = 0x3, flags = 0x812, fd = 0x3, pgoffset = 0x1e7000) = 0x7fffb7fbe000
+mmap: unmapping memory between 0x7fffb7fc4000-0x7fffb7fc8000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7fc4000, length = 0x3660, prot = 0x3, flags = 0x32, fd = 0xffffffff, pgoffset = 0x0) = 0x7fffb7fc4000
+close(3) = 0
+0x00007ffff7df1ed5: close(fd = 0x3) = 0x0
+0x00007ffff7df1f41: mmap(addr = 0x0, length = 0x2000, prot = 0x3, flags = 0x22, fd = 0xffffffff, pgoffset = 0x0) = 0x7fffb7fc8000
+0x00007ffff7dd6022: arch_prctl(code = 0x1002, addr = 0x7fffb7fc8f40) = 0x0
+Suspended at 0x7ffff7ddf713
+Saved context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Call sched_cb: <function QlLinuxThread._default_sched_cb at 0x107140ca0>
+Set fsbase to 0x7fffb7fc8f40 for [Thread 2000]
+Restored context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Scheduled from 0x7ffff7ddf713.
+Suspended at 0x7ffff7df3778
+Saved context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Call sched_cb: <function QlLinuxThread._default_sched_cb at 0x107140ca0>
+Set fsbase to 0x7fffb7fc8f40 for [Thread 2000]
+Restored context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Scheduled from 0x7ffff7df3778.
+0x00007ffff7df1ff5: mprotect(start = 0x7fffb7fbe000, mlen = 0x4000, prot = 0x1) = 0x0
+0x00007ffff7df1ff5: mprotect(start = 0x555555557000, mlen = 0x1000, prot = 0x1) = 0x0
+0x00007ffff7df1ff5: mprotect(start = 0x7ffff7ffc000, mlen = 0x1000, prot = 0x1) = 0x0
+Suspended at 0x5555555550e0
+Saved context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Call sched_cb: <function QlLinuxThread._default_sched_cb at 0x107140ca0>
+[Thread Manager] Thread IDs: {2000}
+Set fsbase to 0x7fffb7fc8f40 for [Thread 2000]
+Restored context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Scheduled from 0x5555555550e0.
+[Thread Manager] Stop the world.
+[Thread Manager] Thread IDs: {2000}
+[Thread Manager] Thread IDs: set()
+[Thread Manager] Stop the world.
+execve("/bin/ls", [ls], [])
+Mapping GDT at 0x30000 with limit 0x1000
+Mapped 0x555555554000-0x555555558000
+Mapped 0x555555558000-0x55555556c000
+Mapped 0x55555556c000-0x555555575000
+Mapped 0x555555576000-0x555555579000
+mem_start : 0x555555554000
+mem_end   : 0x555555579000
+Interpreter path: /lib64/ld-linux-x86-64.so.2
+Interpreter addr: 0x7ffff7dd5000
+Mapped 0x7ffff7dd5000-0x7ffff7dfc000
+Mapped 0x7ffff7ffc000-0x7ffff7fff000
+mmap_address is : 0x7fffb7dd6000
+rel name b'free'
+rel name b'_ITM_deregisterTMCloneTable'
+rel name b'__libc_start_main'
+rel name b'__gmon_start__'
+rel name b'malloc'
+rel name b'_ITM_registerTMCloneTable'
+rel name b'__cxa_finalize'
+rel name b'__ctype_toupper_loc'
+rel name b'getenv'
+rel name b'sigprocmask'
+rel name b'__snprintf_chk'
+rel name b'raise'
+rel name b'abort'
+rel name b'__errno_location'
+rel name b'strncmp'
+rel name b'localtime_r'
+rel name b'_exit'
+rel name b'strcpy'
+rel name b'__fpending'
+rel name b'isatty'
+rel name b'sigaction'
+rel name b'iswcntrl'
+rel name b'wcswidth'
+rel name b'localeconv'
+rel name b'mbstowcs'
+rel name b'readlink'
+rel name b'clock_gettime'
+rel name b'setenv'
+rel name b'textdomain'
+rel name b'fclose'
+rel name b'opendir'
+rel name b'getpwuid'
+rel name b'bindtextdomain'
+rel name b'dcgettext'
+rel name b'__ctype_get_mb_cur_max'
+rel name b'strlen'
+rel name b'__lxstat'
+rel name b'__stack_chk_fail'
+rel name b'getopt_long'
+rel name b'mbrtowc'
+rel name b'strchr'
+rel name b'getgrgid'
+rel name b'__fxstatat'
+rel name b'snprintf'
+rel name b'__overflow'
+rel name b'strrchr'
+rel name b'fgetfilecon'
+rel name b'gmtime_r'
+rel name b'lseek'
+rel name b'gettimeofday'
+rel name b'__assert_fail'
+rel name b'__strtoul_internal'
+rel name b'fnmatch'
+rel name b'memset'
+rel name b'ioctl'
+rel name b'getcwd'
+rel name b'strspn'
+rel name b'closedir'
+rel name b'memcmp'
+rel name b'_setjmp'
+rel name b'fputs_unlocked'
+rel name b'calloc'
+rel name b'lgetfilecon'
+rel name b'strcmp'
+rel name b'signal'
+rel name b'dirfd'
+rel name b'getpwnam'
+rel name b'__memcpy_chk'
+rel name b'sigemptyset'
+rel name b'memcpy'
+rel name b'getgrnam'
+rel name b'getfilecon'
+rel name b'tzset'
+rel name b'fileno'
+rel name b'tcgetpgrp'
+rel name b'__xstat'
+rel name b'readdir'
+rel name b'wcwidth'
+rel name b'fflush'
+rel name b'nl_langinfo'
+rel name b'__fxstat'
+rel name b'strcoll'
+rel name b'mktime'
+rel name b'__freading'
+rel name b'fwrite_unlocked'
+rel name b'realloc'
+rel name b'stpncpy'
+rel name b'setlocale'
+rel name b'__printf_chk'
+rel name b'timegm'
+rel name b'strftime'
+rel name b'mempcpy'
+rel name b'memmove'
+rel name b'error'
+rel name b'fseeko'
+rel name b'unsetenv'
+rel name b'strtoul'
+rel name b'__cxa_atexit'
+rel name b'wcstombs'
+rel name b'getxattr'
+rel name b'freecon'
+rel name b'gethostname'
+rel name b'sigismember'
+rel name b'exit'
+rel name b'fwrite'
+rel name b'__fprintf_chk'
+rel name b'fflush_unlocked'
+rel name b'mbsinit'
+rel name b'iswprint'
+rel name b'sigaddset'
+rel name b'__ctype_tolower_loc'
+rel name b'__ctype_b_loc'
+rel name b'__sprintf_chk'
+[Thread Manager] Thread IDs: {2000}
+Saved context: fs=0x0 tls=0x0
+Set fsbase to 0x0 for [Thread 2000]
+Restored context: fs=0x0 tls=0x0
+Scheduled from 0x7ffff7dd6090.
+0x00007ffff7df0ec7: brk(inp = 0x0) = 0x55555557b000
+0x00007ffff7df2015: uname(buf = 0x80000000d9d0) = 0x0
+access("/etc/ld.so.nohwcap", 00) = -1
+0x00007ffff7de47dc: access(path = 0x7ffff7df6082, mode = 0x0) = -0x1 (EPERM)
+access("/etc/ld.so.preload", 04) = -1
+0x00007ffff7df1e25: access(path = 0x7ffff7df8dd0, mode = 0x4) = -0x1 (EPERM)
+openat(4294967196, "/etc/ld.so.cache", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x7ffff7df6428, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+openat(4294967196, "/lib/x86_64-linux-gnu/tls/i686/x86_64/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/tls/i686/x86_64", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/tls/i686/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/tls/i686", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/tls/x86_64/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/tls/x86_64", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/tls/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/tls", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/i686/x86_64/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/i686/x86_64", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/i686/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/i686", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/x86_64/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/x86_64", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/tls/i686/x86_64/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/tls/i686/x86_64", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/tls/i686/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/tls/i686", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/tls/x86_64/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/tls/x86_64", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/tls/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/tls", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/i686/x86_64/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/i686/x86_64", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/i686/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/i686", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/x86_64/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/x86_64", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/lib/tls/i686/x86_64/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/tls/i686/x86_64", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/lib/tls/i686/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/tls/i686", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/lib/tls/x86_64/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/tls/x86_64", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/lib/tls/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/tls", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/lib/i686/x86_64/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/i686/x86_64", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/lib/i686/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/i686", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64/libselinux.so.1", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64", 0x80000000d420) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d360, buf_ptr = 0x80000000d420) = -0x2 (ENOENT)
+openat(4294967196, "/lib/libselinux.so.1", 0x80000, 00) = 3
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d360, flags = 0x80000, mode = 0x0) = 0x3
+read() CONTENT: b'\x7fELF\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00>\x00\x01\x00\x00\x00@p\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\xc0u\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x008\x00\x0c\x00@\x00\x1f\x00\x1e\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x90\\\x00\x00\x00\x00\x00\x00\x90\\\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\x00`\x00\x00\x00\x00\x00\x00\x00`\x00\x00\x00\x00\x00\x00\x00`\x00\x00\x00\x00\x00\x00\r\x85\x01\x00\x00\x00\x00\x00\r\x85\x01\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\xf0\x01\x00\x00\x00\x00\x00\x00\xf0\x01\x00\x00\x00\x00\x00\x00\xf0\x01\x00\x00\x00\x00\x00\xf0n\x00\x00\x00\x00\x00\x00\xf0n\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00\xb8l\x02\x00\x00\x00\x00\x00\xb8|\x02\x00\x00\x00\x00\x00\xb8|\x02\x00\x00\x00\x00\x00\xb0\x07\x00\x00\x00\x00\x00\x00P-\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00Pm\x02\x00\x00\x00\x00\x00P}\x02\x00\x00\x00\x00\x00P}\x02\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\xe0\x02\x00\x00\x00\x00\x00\x00\xe0\x02\x00\x00\x00\x00\x00\x00\xe0\x02\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x04\x00\x00\x00\xb8l\x02\x00\x00\x00\x00\x00\xb8|\x02\x00\x00\x00\x00\x00\xb8|\x02\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00\xe8\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00S\xe5td\x04\x00\x00\x00\xe0\x02\x00\x00\x00\x00\x00\x00\xe0\x02\x00\x00\x00\x00\x00\x00\xe0\x02\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00P\xe5td\x04\x00\x00\x00\x1c\x10\x02\x00\x00\x00\x00\x00\x1c\x10\x02\x00\x00\x00\x00\x00\x1c\x10\x02\x00\x00\x00\x00\x00t\x0b\x00\x00\x00\x00\x00\x00t\x0b\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00Q\xe5td\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00R\xe5td\x04\x00\x00\x00\xb8l\x02\x00\x00\x00\x00\x00\xb8|\x02\x00\x00\x00\x00\x00\xb8|\x02\x00\x00\x00\x00\x00H\x03\x00\x00\x00\x00\x00\x00H\x03\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00\x00\x00\x05\x00\x00\x00GNU\x00\x02\x00\x00\xc0\x04\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x14\x00\x00\x00\x03\x00\x00\x00GNU\x00\x8a\xf9\x87\xb8C~D\x0f\xd5\xc9(\x8a \xc6\xa7\xe5\xa4\xf8\xd1)\x00\x00\x00\x00\xc5\x00\x00\x00\x8d\x00\x00\x00 \x00\x00\x00\x0b\x00\x00\x00\x98 \x04\x81 L\x00\x03'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000d588, length = 0x340) = 0x340
+0x00007ffff7df1c41: fstat(fd = 0x3, buf_ptr = 0x80000000d420) = 0x0
+0x00007ffff7df1f41: mmap(addr = 0x0, length = 0x2aa08, prot = 0x1, flags = 0x802, fd = 0x3, pgoffset = 0x0) = 0x7fffb7dd6000
+0x00007ffff7df1ff5: mprotect(start = 0x7fffb7ddc000, mlen = 0x21000, prot = 0x0) = 0x0
+mmap: unmapping memory between 0x7fffb7ddc000-0x7fffb7df5000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7ddc000, length = 0x19000, prot = 0x5, flags = 0x812, fd = 0x3, pgoffset = 0x6000) = 0x7fffb7ddc000
+mmap: unmapping memory between 0x7fffb7df5000-0x7fffb7dfc000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7df5000, length = 0x7000, prot = 0x1, flags = 0x812, fd = 0x3, pgoffset = 0x1f000) = 0x7fffb7df5000
+mmap: unmapping memory between 0x7fffb7dfd000-0x7fffb7dff000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7dfd000, length = 0x2000, prot = 0x3, flags = 0x812, fd = 0x3, pgoffset = 0x26000) = 0x7fffb7dfd000
+mmap: unmapping memory between 0x7fffb7dff000-0x7fffb7e01000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7dff000, length = 0x1a08, prot = 0x3, flags = 0x32, fd = 0xffffffff, pgoffset = 0x0) = 0x7fffb7dff000
+close(3) = 0
+0x00007ffff7df1ed5: close(fd = 0x3) = 0x0
+openat(4294967196, "/lib/libc.so.6", 0x80000, 00) = 3
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d330, flags = 0x80000, mode = 0x0) = 0x3
+read() CONTENT: b'\x7fELF\x02\x01\x01\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00>\x00\x01\x00\x00\x00\xc0A\x02\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\x18\xe7\x1e\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x008\x00\x0e\x00@\x00D\x00C\x00\x06\x00\x00\x00\x04\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x18P\x00\x00\x00\x00\x00\x00\xd8\x8e\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x80\xab\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x90\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00S\xe5td\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00P\xe5td\x04\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00Q\xe5td\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00R\xe5td\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00x8\x00\x00\x00\x00\x00\x00'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000d558, length = 0x340) = 0x340
+lseek(3, 0x40, 0) = 64
+0x00007ffff7df1df5: lseek(fd = 0x3, offset = 0x40, origin = 0x0) = 0x40
+read() CONTENT: b'\x06\x00\x00\x00\x04\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x18P\x00\x00\x00\x00\x00\x00\xd8\x8e\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x80\xab\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x90\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00S\xe5td\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00P\xe5td\x04\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00Q\xe5td\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00R\xe5td\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00x8\x00\x00\x00\x00\x00\x00x8\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000cf90, length = 0x310) = 0x310
+lseek(3, 0x350, 0) = 848
+0x00007ffff7df1df5: lseek(fd = 0x3, offset = 0x350, origin = 0x0) = 0x350
+read() CONTENT: b'\x04\x00\x00\x00\x10\x00\x00\x00\x05\x00\x00\x00GNU\x00\x02\x00\x00\xc0\x04\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000cf60, length = 0x20) = 0x20
+lseek(3, 0x370, 0) = 880
+0x00007ffff7df1df5: lseek(fd = 0x3, offset = 0x370, origin = 0x0) = 0x370
+read() CONTENT: b"\x04\x00\x00\x00\x14\x00\x00\x00\x03\x00\x00\x00GNU\x00\x18x\xe6\xb4ur\x0c|Q\x96\x9ei\xab-'o\xaem\x1d\xee\x04\x00\x00\x00\x10\x00\x00\x00\x01\x00\x00\x00GNU\x00\x00\x00\x00\x00\x03\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00"
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000cf00, length = 0x44) = 0x44
+0x00007ffff7df1c41: fstat(fd = 0x3, buf_ptr = 0x80000000d3f0) = 0x0
+0x00007ffff7df1f41: mmap(addr = 0x0, length = 0x2000, prot = 0x3, flags = 0x22, fd = 0xffffffff, pgoffset = 0x0) = 0x7fffb7e01000
+lseek(3, 0x40, 0) = 64
+0x00007ffff7df1df5: lseek(fd = 0x3, offset = 0x40, origin = 0x0) = 0x40
+read() CONTENT: b'\x06\x00\x00\x00\x04\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x18P\x00\x00\x00\x00\x00\x00\xd8\x8e\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x80\xab\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x90\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00S\xe5td\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00P\xe5td\x04\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00Q\xe5td\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00R\xe5td\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00x8\x00\x00\x00\x00\x00\x00x8\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000d050, length = 0x310) = 0x310
+0x00007ffff7df1f41: mmap(addr = 0x0, length = 0x1f1660, prot = 0x1, flags = 0x802, fd = 0x3, pgoffset = 0x0) = 0x7fffb7e03000
+mmap: unmapping memory between 0x7fffb7e25000-0x7fffb7f9d000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7e25000, length = 0x178000, prot = 0x5, flags = 0x812, fd = 0x3, pgoffset = 0x22000) = 0x7fffb7e25000
+mmap: unmapping memory between 0x7fffb7f9d000-0x7fffb7feb000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7f9d000, length = 0x4e000, prot = 0x1, flags = 0x812, fd = 0x3, pgoffset = 0x19a000) = 0x7fffb7f9d000
+mmap: unmapping memory between 0x7fffb7feb000-0x7fffb7ff1000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7feb000, length = 0x6000, prot = 0x3, flags = 0x812, fd = 0x3, pgoffset = 0x1e7000) = 0x7fffb7feb000
+mmap: unmapping memory between 0x7fffb7ff1000-0x7fffb7ff5000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7ff1000, length = 0x3660, prot = 0x3, flags = 0x32, fd = 0xffffffff, pgoffset = 0x0) = 0x7fffb7ff1000
+close(3) = 0
+0x00007ffff7df1ed5: close(fd = 0x3) = 0x0
+openat(4294967196, "/lib/libpcre2-8.so.0", 0x80000, 00) = 3
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d1f0, flags = 0x80000, mode = 0x0) = 0x3
+read() CONTENT: b'\x7fELF\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00>\x00\x01\x00\x00\x00\xe0"\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\x88\xf3\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x008\x00\x0b\x00@\x00\x1d\x00\x1c\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc0\x1e\x00\x00\x00\x00\x00\x00\xc0\x1e\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00]C\x06\x00\x00\x00\x00\x00]C\x06\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00p\x06\x00\x00\x00\x00\x00\x00p\x06\x00\x00\x00\x00\x00\x00p\x06\x00\x00\x00\x00\x00$w\x02\x00\x00\x00\x00\x00$w\x02\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00\x10\xed\x08\x00\x00\x00\x00\x00\x10\xfd\x08\x00\x00\x00\x00\x00\x10\xfd\x08\x00\x00\x00\x00\x000\x05\x00\x00\x00\x00\x00\x00\x18\x06\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\xe8\xed\x08\x00\x00\x00\x00\x00\xe8\xfd\x08\x00\x00\x00\x00\x00\xe8\xfd\x08\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\xa8\x02\x00\x00\x00\x00\x00\x00\xa8\x02\x00\x00\x00\x00\x00\x00\xa8\x02\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\xc8\x02\x00\x00\x00\x00\x00\x00\xc8\x02\x00\x00\x00\x00\x00\x00\xc8\x02\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00S\xe5td\x04\x00\x00\x00\xa8\x02\x00\x00\x00\x00\x00\x00\xa8\x02\x00\x00\x00\x00\x00\x00\xa8\x02\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00P\xe5td\x04\x00\x00\x00\x00\x80\x08\x00\x00\x00\x00\x00\x00\x80\x08\x00\x00\x00\x00\x00\x00\x80\x08\x00\x00\x00\x00\x00\xdc\x07\x00\x00\x00\x00\x00\x00\xdc\x07\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00Q\xe5td\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00R\xe5td\x04\x00\x00\x00\x10\xed\x08\x00\x00\x00\x00\x00\x10\xfd\x08\x00\x00\x00\x00\x00\x10\xfd\x08\x00\x00\x00\x00\x00\xf0\x02\x00\x00\x00\x00\x00\x00\xf0\x02\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00\x00\x00\x05\x00\x00\x00GNU\x00\x02\x00\x00\xc0\x04\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x14\x00\x00\x00\x03\x00\x00\x00GNU\x00\xb0\x14\xa4E\xa3aD%\x8d\xc6 \x04\xfd0\xcb\x8a\xb3\xfc\xa6\n\x00\x00\x00\x00C\x00\x00\x00\x1a\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00#&`tELfQ\x03D\x06\x00\xa5\xa4\x15\xaa"\x02\x00\x03@\x00\x02\x00\x18\x12\x81\x88\x00\x80H\x00"\x020\x10P\x02X\x00t\x10AA(SB\x81\x00 \x19\xa4\x92\x02@T\x018\xcc\x117\x04\x01&'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000d418, length = 0x340) = 0x340
+0x00007ffff7df1c41: fstat(fd = 0x3, buf_ptr = 0x80000000d2b0) = 0x0
+0x00007ffff7df1f41: mmap(addr = 0x0, length = 0x90328, prot = 0x1, flags = 0x802, fd = 0x3, pgoffset = 0x0) = 0x7fffb7ff5000
+mmap: unmapping memory between 0x7fffb7ff7000-0x7fffb805c000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7ff7000, length = 0x65000, prot = 0x5, flags = 0x812, fd = 0x3, pgoffset = 0x2000) = 0x7fffb7ff7000
+mmap: unmapping memory between 0x7fffb805c000-0x7fffb8084000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb805c000, length = 0x28000, prot = 0x1, flags = 0x812, fd = 0x3, pgoffset = 0x67000) = 0x7fffb805c000
+mmap: unmapping memory between 0x7fffb8084000-0x7fffb8086000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb8084000, length = 0x2000, prot = 0x3, flags = 0x812, fd = 0x3, pgoffset = 0x8e000) = 0x7fffb8084000
+close(3) = 0
+0x00007ffff7df1ed5: close(fd = 0x3) = 0x0
+openat(4294967196, "/lib/libdl.so.2", 0x80000, 00) = 3
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d1c0, flags = 0x80000, mode = 0x0) = 0x3
+read() CONTENT: b'\x7fELF\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00>\x00\x01\x00\x00\x00 \x12\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\xe0A\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x008\x00\x0b\x00@\x00\x1f\x00\x1e\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00H\x0e\x00\x00\x00\x00\x00\x00H\x0e\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x89\x11\x00\x00\x00\x00\x00\x00\x89\x11\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x000\x00\x00\x00\x00\x00\x00\x000\x00\x00\x00\x00\x00\x00\x000\x00\x00\x00\x00\x00\x00\xc0\x06\x00\x00\x00\x00\x00\x00\xc0\x06\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00p=\x00\x00\x00\x00\x00\x00pM\x00\x00\x00\x00\x00\x00pM\x00\x00\x00\x00\x00\x00\x18\x03\x00\x00\x00\x00\x00\x00\xa0\x03\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x90=\x00\x00\x00\x00\x00\x00\x90M\x00\x00\x00\x00\x00\x00\x90M\x00\x00\x00\x00\x00\x00\x10\x02\x00\x00\x00\x00\x00\x00\x10\x02\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\xa8\x02\x00\x00\x00\x00\x00\x00\xa8\x02\x00\x00\x00\x00\x00\x00\xa8\x02\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\xc8\x02\x00\x00\x00\x00\x00\x00\xc8\x02\x00\x00\x00\x00\x00\x00\xc8\x02\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00S\xe5td\x04\x00\x00\x00\xa8\x02\x00\x00\x00\x00\x00\x00\xa8\x02\x00\x00\x00\x00\x00\x00\xa8\x02\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00P\xe5td\x04\x00\x00\x00\xa40\x00\x00\x00\x00\x00\x00\xa40\x00\x00\x00\x00\x00\x00\xa40\x00\x00\x00\x00\x00\x00\xdc\x00\x00\x00\x00\x00\x00\x00\xdc\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00Q\xe5td\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00R\xe5td\x04\x00\x00\x00p=\x00\x00\x00\x00\x00\x00pM\x00\x00\x00\x00\x00\x00pM\x00\x00\x00\x00\x00\x00\x90\x02\x00\x00\x00\x00\x00\x00\x90\x02\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00\x00\x00\x05\x00\x00\x00GNU\x00\x02\x00\x00\xc0\x04\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x14\x00\x00\x00\x03\x00\x00\x00GNU\x00\xc0\xf4\x01U\xb3\xf8\xbf\x8cIO\xa8\x00\xf9\xab\x19~\xbe \xedn\x04\x00\x00\x00\x10\x00\x00\x00\x01\x00\x00\x00GNU\x00\x00\x00\x00\x00\x03\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x02\x00\x00\x00\x07\x00\x00\x00\x98\x02\x11\x00\x80H\x00\x04\x12\x00 @\x83(\x08\x9e\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000d3e8, length = 0x340) = 0x340
+0x00007ffff7df1c41: fstat(fd = 0x3, buf_ptr = 0x80000000d280) = 0x0
+0x00007ffff7df1f41: mmap(addr = 0x0, length = 0x5110, prot = 0x1, flags = 0x802, fd = 0x3, pgoffset = 0x0) = 0x7fffb8086000
+mmap: unmapping memory between 0x7fffb8087000-0x7fffb8089000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb8087000, length = 0x2000, prot = 0x5, flags = 0x812, fd = 0x3, pgoffset = 0x1000) = 0x7fffb8087000
+mmap: unmapping memory between 0x7fffb8089000-0x7fffb808a000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb8089000, length = 0x1000, prot = 0x1, flags = 0x812, fd = 0x3, pgoffset = 0x3000) = 0x7fffb8089000
+mmap: unmapping memory between 0x7fffb808a000-0x7fffb808c000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb808a000, length = 0x2000, prot = 0x3, flags = 0x812, fd = 0x3, pgoffset = 0x3000) = 0x7fffb808a000
+close(3) = 0
+0x00007ffff7df1ed5: close(fd = 0x3) = 0x0
+openat(4294967196, "/lib/libpthread.so.0", 0x80000, 00) = 3
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d160, flags = 0x80000, mode = 0x0) = 0x3
+read() CONTENT: b"\x7fELF\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00>\x00\x01\x00\x00\x00\x90q\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00h\\\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x008\x00\r\x00@\x00'\x00&\x00\x06\x00\x00\x00\x04\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\xd8\x02\x00\x00\x00\x00\x00\x00\xd8\x02\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x10\x82\x01\x00\x00\x00\x00\x00\x10\x82\x01\x00\x00\x00\x00\x00\x10\x82\x01\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa8Z\x00\x00\x00\x00\x00\x00\xa8Z\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\x00`\x00\x00\x00\x00\x00\x00\x00`\x00\x00\x00\x00\x00\x00\x00`\x00\x00\x00\x00\x00\x00E\x05\x01\x00\x00\x00\x00\x00E\x05\x01\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00p\x01\x00\x00\x00\x00\x00\x00p\x01\x00\x00\x00\x00\x00\x00p\x01\x00\x00\x00\x00\x00\xbcW\x00\x00\x00\x00\x00\x00\xbcW\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00\x08\xcc\x01\x00\x00\x00\x00\x00\x08\xdc\x01\x00\x00\x00\x00\x00\x08\xdc\x01\x00\x00\x00\x00\x00\x08\x07\x00\x00\x00\x00\x00\x00pH\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00p\xcd\x01\x00\x00\x00\x00\x00p\xdd\x01\x00\x00\x00\x00\x00p\xdd\x01\x00\x00\x00\x00\x000\x02\x00\x00\x00\x00\x00\x000\x02\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x18\x03\x00\x00\x00\x00\x00\x00\x18\x03\x00\x00\x00\x00\x00\x00\x18\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x008\x03\x00\x00\x00\x00\x00\x008\x03\x00\x00\x00\x00\x00\x008\x03\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00S\xe5td\x04\x00\x00\x00\x18\x03\x00\x00\x00\x00\x00\x00\x18\x03\x00\x00\x00\x00\x00\x00\x18\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00P\xe5td\x04\x00\x00\x000\x82\x01\x00\x00\x00\x00\x000\x82\x01\x00\x00\x00\x00\x000\x82\x01\x00\x00\x00\x00\x00D\t\x00\x00\x00\x00\x00\x00D\t\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00Q\xe5td\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00R\xe5td\x04\x00\x00\x00\x08\xcc\x01\x00\x00\x00\x00\x00\x08\xdc\x01\x00\x00\x00\x00\x00\x08\xdc\x01\x00\x00\x00\x00\x00\xf8\x03\x00\x00\x00\x00\x00\x00\xf8\x03\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00\x00\x00\x05\x00\x00\x00GNU\x00\x02\x00\x00\xc0\x04\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x14\x00\x00\x00"
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000d388, length = 0x340) = 0x340
+lseek(3, 0x338, 0) = 824
+0x00007ffff7df1df5: lseek(fd = 0x3, offset = 0x338, origin = 0x0) = 0x338
+read() CONTENT: b'\x04\x00\x00\x00\x14\x00\x00\x00\x03\x00\x00\x00GNU\x00{E6\xf4\x1c\xda\xa5\x88\x84\x08\xe8-\x086\xe3=\xcfCdf\x04\x00\x00\x00\x10\x00\x00\x00\x01\x00\x00\x00GNU\x00\x00\x00\x00\x00\x03\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000d080, length = 0x44) = 0x44
+0x00007ffff7df1c41: fstat(fd = 0x3, buf_ptr = 0x80000000d220) = 0x0
+0x00007ffff7df1f41: mmap(addr = 0x0, length = 0x22478, prot = 0x1, flags = 0x802, fd = 0x3, pgoffset = 0x0) = 0x7fffb808c000
+mmap: unmapping memory between 0x7fffb8092000-0x7fffb80a3000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb8092000, length = 0x11000, prot = 0x5, flags = 0x812, fd = 0x3, pgoffset = 0x6000) = 0x7fffb8092000
+mmap: unmapping memory between 0x7fffb80a3000-0x7fffb80a9000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb80a3000, length = 0x6000, prot = 0x1, flags = 0x812, fd = 0x3, pgoffset = 0x17000) = 0x7fffb80a3000
+mmap: unmapping memory between 0x7fffb80a9000-0x7fffb80ab000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb80a9000, length = 0x2000, prot = 0x3, flags = 0x812, fd = 0x3, pgoffset = 0x1c000) = 0x7fffb80a9000
+mmap: unmapping memory between 0x7fffb80ab000-0x7fffb80af000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb80ab000, length = 0x3478, prot = 0x3, flags = 0x32, fd = 0xffffffff, pgoffset = 0x0) = 0x7fffb80ab000
+close(3) = 0
+0x00007ffff7df1ed5: close(fd = 0x3) = 0x0
+Suspended at 0x7ffff7df2eb7
+Saved context: fs=0x0 tls=0x0
+Call sched_cb: <function QlLinuxThread._default_sched_cb at 0x107140ca0>
+Set fsbase to 0x0 for [Thread 2000]
+Restored context: fs=0x0 tls=0x0
+Scheduled from 0x7ffff7df2eb7.
+0x00007ffff7df1f41: mmap(addr = 0x0, length = 0x2000, prot = 0x3, flags = 0x22, fd = 0xffffffff, pgoffset = 0x0) = 0x7fffb80af000
+0x00007ffff7dd6022: arch_prctl(code = 0x1002, addr = 0x7fffb80afc40) = 0x0
+Suspended at 0x7ffff7de230e
+Saved context: fs=0x7fffb80afc40 tls=0x7fffb80afc40
+Call sched_cb: <function QlLinuxThread._default_sched_cb at 0x107140ca0>
+Set fsbase to 0x7fffb80afc40 for [Thread 2000]
+Restored context: fs=0x7fffb80afc40 tls=0x7fffb80afc40
+Scheduled from 0x7ffff7de230e.
+Suspended at 0x7ffff7de0103
+Saved context: fs=0x7fffb80afc40 tls=0x7fffb80afc40
+Call sched_cb: <function QlLinuxThread._default_sched_cb at 0x107140ca0>
+Set fsbase to 0x7fffb80afc40 for [Thread 2000]
+Restored context: fs=0x7fffb80afc40 tls=0x7fffb80afc40
+Scheduled from 0x7ffff7de0103.
+0x00007ffff7df1ff5: mprotect(start = 0x7fffb7feb000, mlen = 0x4000, prot = 0x1) = 0x0
+0x00007ffff7df1ff5: mprotect(start = 0x7fffb80a9000, mlen = 0x1000, prot = 0x1) = 0x0
+Suspended at 0x7ffff7ddf396
+Saved context: fs=0x7fffb80afc40 tls=0x7fffb80afc40
+Call sched_cb: <function QlLinuxThread._default_sched_cb at 0x107140ca0>
+Set fsbase to 0x7fffb80afc40 for [Thread 2000]
+Restored context: fs=0x7fffb80afc40 tls=0x7fffb80afc40
+Scheduled from 0x7ffff7ddf396.
+0x00007ffff7df1ff5: mprotect(start = 0x7fffb808a000, mlen = 0x1000, prot = 0x1) = 0x0
+0x00007ffff7df1ff5: mprotect(start = 0x7fffb8084000, mlen = 0x1000, prot = 0x1) = 0x0
+Suspended at 0x7ffff7de2256
+Saved context: fs=0x7fffb80afc40 tls=0x7fffb80afc40
+Call sched_cb: <function QlLinuxThread._default_sched_cb at 0x107140ca0>
+Set fsbase to 0x7fffb80afc40 for [Thread 2000]
+Restored context: fs=0x7fffb80afc40 tls=0x7fffb80afc40
+Scheduled from 0x7ffff7de2256.
+0x00007ffff7df1ff5: mprotect(start = 0x7fffb7dfd000, mlen = 0x1000, prot = 0x1) = 0x0
+Suspended at 0x7ffff7ddf371
+Saved context: fs=0x7fffb80afc40 tls=0x7fffb80afc40
+Call sched_cb: <function QlLinuxThread._default_sched_cb at 0x107140ca0>
+Set fsbase to 0x7fffb80afc40 for [Thread 2000]
+Restored context: fs=0x7fffb80afc40 tls=0x7fffb80afc40
+Scheduled from 0x7ffff7ddf371.
+CPU Context:
+ah	: 0xc7
+al	: 0x60
+ch	: 0x8c
+cl	: 0x88
+dh	: 0xda
+dl	: 0x8
+bh	: 0x70
+bl	: 0xa8
+ax	: 0xc760
+cx	: 0x8c88
+dx	: 0xda08
+bx	: 0x70a8
+sp	: 0xd9e8
+bp	: 0xdb70
+si	: 0x88f0
+di	: 0x88e3
+ip	: 0xe710
+eax	: 0xf7ffc760
+ecx	: 0xf7de8c88
+edx	: 0xda08
+ebx	: 0x555570a8
+esp	: 0xd9e8
+ebp	: 0xdb70
+esi	: 0xf7de88f0
+edi	: 0xb7fb88e3
+eip	: 0xf7ffe710
+rax	: 0x7ffff7ffc760
+rbx	: 0x5555555570a8
+rcx	: 0x7ffff7de8c88
+rdx	: 0x80000000da08
+rsi	: 0x7ffff7de88f0
+rdi	: 0x7fffb7fb88e3
+rbp	: 0x80000000db70
+rsp	: 0x80000000d9e8
+r8	: 0x80000000da30
+r9	: 0x0
+r10	: 0x7fffb7ed3f10
+r11	: 0x7fffb7e01000
+r12	: 0x7
+r13	: 0x5555555548a8
+r14	: 0x7ffff7ffe170
+r15	: 0x2c00000007
+rip	: 0x7ffff7ffe710
+cr0	: 0x11
+cr1	: 0x0
+cr2	: 0x0
+cr3	: 0x0
+cr4	: 0x0
+cr8	: 0x0
+dr0	: 0x0
+dr1	: 0x0
+dr2	: 0x0
+dr3	: 0x0
+dr4	: 0x0
+dr5	: 0x0
+dr6	: 0xffff0ff0
+dr7	: 0x400
+st0	: 0x0
+st1	: 0x0
+st2	: 0x0
+st3	: 0x0
+st4	: 0x0
+st5	: 0x0
+st6	: 0x0
+st7	: 0x0
+eflags	: 0x46
+cs	: 0x33
+ss	: 0x28
+ds	: 0x0
+es	: 0x0
+fs	: 0x0
+gs	: 0x0
+r8b	: 0x30
+r9b	: 0x0
+r10b	: 0x10
+r11b	: 0x0
+r12b	: 0x7
+r13b	: 0xa8
+r14b	: 0x70
+r15b	: 0x7
+r8w	: 0xda30
+r9w	: 0x0
+r10w	: 0x3f10
+r11w	: 0x1000
+r12w	: 0x7
+r13w	: 0x48a8
+r14w	: 0xe170
+r15w	: 0x7
+r8d	: 0xda30
+r9d	: 0x0
+r10d	: 0xb7ed3f10
+r11d	: 0xb7e01000
+r12d	: 0x7
+r13d	: 0x555548a8
+r14d	: 0xf7ffe170
+r15d	: 0x7
+fsbase	: 0x7fffb80afc40
+gsbase	: 0x6000000
+xmm0	: 0x0
+xmm1	: 0xffffffff00ffffffffffffffffffffff
+xmm2	: 0x42494c4700352e322e325f4342494c47
+xmm3	: 0x776f6c667265766f5f
+xmm4	: 0x5f796f72747365645f766e6f63675f5f
+xmm5	: 0x0
+xmm6	: 0x0
+xmm7	: 0x0
+xmm8	: 0x0
+xmm9	: 0x0
+xmm10	: 0x0
+xmm11	: 0x0
+xmm12	: 0x0
+xmm13	: 0x0
+xmm14	: 0x0
+xmm15	: 0x0
+xmm16	: 0x0
+xmm17	: 0x0
+xmm18	: 0x0
+xmm19	: 0x0
+xmm20	: 0x0
+xmm21	: 0x0
+xmm22	: 0x0
+xmm23	: 0x0
+xmm24	: 0x0
+xmm25	: 0x0
+xmm26	: 0x0
+xmm27	: 0x0
+xmm28	: 0x0
+xmm29	: 0x0
+xmm30	: 0x0
+xmm31	: 0x0
+ymm0	: 0x0
+ymm1	: 0xffffffff00ffffffffffffffffffffff
+ymm2	: 0x42494c4700352e322e325f4342494c47
+ymm3	: 0x776f6c667265766f5f
+ymm4	: 0x5f796f72747365645f766e6f63675f5f
+ymm5	: 0x0
+ymm6	: 0x0
+ymm7	: 0x0
+ymm8	: 0x0
+ymm9	: 0x0
+ymm10	: 0x0
+ymm11	: 0x0
+ymm12	: 0x0
+ymm13	: 0x0
+ymm14	: 0x0
+ymm15	: 0x0
+ymm16	: 0x0
+ymm17	: 0x0
+ymm18	: 0x0
+ymm19	: 0x0
+ymm20	: 0x0
+ymm21	: 0x0
+ymm22	: 0x0
+ymm23	: 0x0
+ymm24	: 0x0
+ymm25	: 0x0
+ymm26	: 0x0
+ymm27	: 0x0
+ymm28	: 0x0
+ymm29	: 0x0
+ymm30	: 0x0
+ymm31	: 0x0
+zmm0	: 0x0
+zmm1	: 0x0
+zmm2	: 0x0
+zmm3	: 0x0
+zmm4	: 0x0
+zmm5	: 0x0
+zmm6	: 0x0
+zmm7	: 0x0
+zmm8	: 0x0
+zmm9	: 0x0
+zmm10	: 0x0
+zmm11	: 0x0
+zmm12	: 0x0
+zmm13	: 0x0
+zmm14	: 0x0
+zmm15	: 0x0
+zmm16	: 0x0
+zmm17	: 0x0
+zmm18	: 0x0
+zmm19	: 0x0
+zmm20	: 0x0
+zmm21	: 0x0
+zmm22	: 0x0
+zmm23	: 0x0
+zmm24	: 0x0
+zmm25	: 0x0
+zmm26	: 0x0
+zmm27	: 0x0
+zmm28	: 0x0
+zmm29	: 0x0
+zmm30	: 0x0
+zmm31	: 0x0
+Hexdump:
+90 e7 ff f7 ff 7f 00 00
+Disassembly:
+00007ffff7ffe710 [ld-linux-x86-64.so.2 + 0x002710]  90                   nop                  
+00007ffff7ffe711 [ld-linux-x86-64.so.2 + 0x002711]  e7 ff                out                  0xff, eax
+00007ffff7ffe713 [ld-linux-x86-64.so.2 + 0x002713]  f7 ff                idiv                 edi
+00007ffff7ffe715 [ld-linux-x86-64.so.2 + 0x002715]  7f 00                jg                   0x7ffff7ffe717
+00007ffff7ffe717 [ld-linux-x86-64.so.2 + 0x002717]  00 10                add                  byte ptr [rax], dl
+00007ffff7ffe719 [ld-linux-x86-64.so.2 + 0x002719]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe71b [ld-linux-x86-64.so.2 + 0x00271b]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe71d [ld-linux-x86-64.so.2 + 0x00271d]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe71f [ld-linux-x86-64.so.2 + 0x00271f]  00 90 e7 ff f7 ff    add                  byte ptr [rax - 0x80019], dl
+00007ffff7ffe725 [ld-linux-x86-64.so.2 + 0x002725]  7f 00                jg                   0x7ffff7ffe727
+00007ffff7ffe727 [ld-linux-x86-64.so.2 + 0x002727]  00 09                add                  byte ptr [rcx], cl
+00007ffff7ffe729 [ld-linux-x86-64.so.2 + 0x002729]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe72b [ld-linux-x86-64.so.2 + 0x00272b]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe72d [ld-linux-x86-64.so.2 + 0x00272d]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe72f [ld-linux-x86-64.so.2 + 0x00272f]  00 a0 e7 ff f7 ff    add                  byte ptr [rax - 0x80019], ah
+00007ffff7ffe735 [ld-linux-x86-64.so.2 + 0x002735]  7f 00                jg                   0x7ffff7ffe737
+00007ffff7ffe737 [ld-linux-x86-64.so.2 + 0x002737]  00 0b                add                  byte ptr [rbx], cl
+00007ffff7ffe739 [ld-linux-x86-64.so.2 + 0x002739]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe73b [ld-linux-x86-64.so.2 + 0x00273b]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe73d [ld-linux-x86-64.so.2 + 0x00273d]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe73f [ld-linux-x86-64.so.2 + 0x00273f]  00 a0 e7 ff f7 ff    add                  byte ptr [rax - 0x80019], ah
+00007ffff7ffe745 [ld-linux-x86-64.so.2 + 0x002745]  7f 00                jg                   0x7ffff7ffe747
+00007ffff7ffe747 [ld-linux-x86-64.so.2 + 0x002747]  00 04 00             add                  byte ptr [rax + rax], al
+00007ffff7ffe74a [ld-linux-x86-64.so.2 + 0x00274a]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe74c [ld-linux-x86-64.so.2 + 0x00274c]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe74e [ld-linux-x86-64.so.2 + 0x00274e]  00 00                add                  byte ptr [rax], al
+PC = 0x00007ffff7ffe710 (/Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/lib64/ld-linux-x86-64.so.2 + 0x229710)
+
+Memory map:
+Start                End                  Perm    Label                    Image
+000000000000030000 - 000000000000031000   rwx     [GDT]                    
+000000555555554000 - 000000555555558000   r--     ls                       /Users/also/Downloads/u20-execve_ls.out
+000000555555558000 - 00000055555556c000   r-x     ls                       /Users/also/Downloads/u20-execve_ls.out
+00000055555556c000 - 000000555555575000   r--     ls                       /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/bin/ls
+000000555555576000 - 000000555555579000   rw-     ls                       /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/bin/ls
+000000555555579000 - 00000055555557b000   rwx     [hook_mem]               
+0000007fffb7dd6000 - 0000007fffb7ddc000   r--     [mmap] libselinux.so.1   
+0000007fffb7ddc000 - 0000007fffb7df5000   r-x     [mmap] libselinux.so.1   
+0000007fffb7df5000 - 0000007fffb7dfc000   r--     [mmap] libselinux.so.1   
+0000007fffb7dfc000 - 0000007fffb7dfd000   ---     [mmap] libselinux.so.1   
+0000007fffb7dfd000 - 0000007fffb7dfe000   r--     [mmap] libselinux.so.1   
+0000007fffb7dfe000 - 0000007fffb7dff000   rw-     [mmap] libselinux.so.1   
+0000007fffb7dff000 - 0000007fffb7e01000   rw-     [mmap anonymous]         
+0000007fffb7e01000 - 0000007fffb7e03000   rw-     [mmap anonymous]         
+0000007fffb7e03000 - 0000007fffb7e25000   r--     [mmap] libc.so.6         
+0000007fffb7e25000 - 0000007fffb7f9d000   r-x     [mmap] libc.so.6         
+0000007fffb7f9d000 - 0000007fffb7feb000   r--     [mmap] libc.so.6         
+0000007fffb7feb000 - 0000007fffb7fef000   r--     [mmap] libc.so.6         
+0000007fffb7fef000 - 0000007fffb7ff1000   rw-     [mmap] libc.so.6         
+0000007fffb7ff1000 - 0000007fffb7ff5000   rw-     [mmap anonymous]         
+0000007fffb7ff5000 - 0000007fffb7ff7000   r--     [mmap] libpcre2-8.so.0   
+0000007fffb7ff7000 - 0000007fffb805c000   r-x     [mmap] libpcre2-8.so.0   
+0000007fffb805c000 - 0000007fffb8084000   r--     [mmap] libpcre2-8.so.0   
+0000007fffb8084000 - 0000007fffb8085000   r--     [mmap] libpcre2-8.so.0   
+0000007fffb8085000 - 0000007fffb8086000   rw-     [mmap] libpcre2-8.so.0   
+0000007fffb8086000 - 0000007fffb8087000   r--     [mmap] libdl.so.2        
+0000007fffb8087000 - 0000007fffb8089000   r-x     [mmap] libdl.so.2        
+0000007fffb8089000 - 0000007fffb808a000   r--     [mmap] libdl.so.2        
+0000007fffb808a000 - 0000007fffb808b000   r--     [mmap] libdl.so.2        
+0000007fffb808b000 - 0000007fffb808c000   rw-     [mmap] libdl.so.2        
+0000007fffb808c000 - 0000007fffb8092000   r--     [mmap] libpthread.so.0   
+0000007fffb8092000 - 0000007fffb80a3000   r-x     [mmap] libpthread.so.0   
+0000007fffb80a3000 - 0000007fffb80a9000   r--     [mmap] libpthread.so.0   
+0000007fffb80a9000 - 0000007fffb80aa000   r--     [mmap] libpthread.so.0   
+0000007fffb80aa000 - 0000007fffb80ab000   rw-     [mmap] libpthread.so.0   
+0000007fffb80ab000 - 0000007fffb80af000   rw-     [mmap anonymous]         
+0000007fffb80af000 - 0000007fffb80b1000   rw-     [mmap anonymous]         
+0000007ffff7dd5000 - 0000007ffff7dfc000   r-x     ld-linux-x86-64.so.2     /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/lib64/ld-linux-x86-64.so.2
+0000007ffff7ffc000 - 0000007ffff7fff000   rw-     ld-linux-x86-64.so.2     /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/lib64/ld-linux-x86-64.so.2
+0000007ffffffde000 - 00000080000000e000   rwx     [stack]                  
+00ffffffffff600000 - 00ffffffffff601000   rwx     [vsyscall]               
+
+Traceback (most recent call last):
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/qiling/os/linux/thread.py", line 242, in _run
+    self.ql.emu_start(start_address, self.exit_point, count=31337)
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/qiling/core.py", line 769, in emu_start
+    self.uc.emu_start(begin, end, timeout, count)
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/unicorn/unicorn.py", line 547, in emu_start
+    raise UcError(status)
+unicorn.unicorn.UcError: Fetch from non-executable memory (UC_ERR_FETCH_PROT)
+CPU Context:
+ah	: 0xc7
+al	: 0x60
+ch	: 0x8c
+cl	: 0x88
+dh	: 0xda
+dl	: 0x8
+bh	: 0x70
+bl	: 0xa8
+ax	: 0xc760
+cx	: 0x8c88
+dx	: 0xda08
+bx	: 0x70a8
+sp	: 0xd9e8
+bp	: 0xdb70
+si	: 0x88f0
+di	: 0x88e3
+ip	: 0xe710
+eax	: 0xf7ffc760
+ecx	: 0xf7de8c88
+edx	: 0xda08
+ebx	: 0x555570a8
+esp	: 0xd9e8
+ebp	: 0xdb70
+esi	: 0xf7de88f0
+edi	: 0xb7fb88e3
+eip	: 0xf7ffe710
+rax	: 0x7ffff7ffc760
+rbx	: 0x5555555570a8
+rcx	: 0x7ffff7de8c88
+rdx	: 0x80000000da08
+rsi	: 0x7ffff7de88f0
+rdi	: 0x7fffb7fb88e3
+rbp	: 0x80000000db70
+rsp	: 0x80000000d9e8
+r8	: 0x80000000da30
+r9	: 0x0
+r10	: 0x7fffb7ed3f10
+r11	: 0x7fffb7e01000
+r12	: 0x7
+r13	: 0x5555555548a8
+r14	: 0x7ffff7ffe170
+r15	: 0x2c00000007
+rip	: 0x7ffff7ffe710
+cr0	: 0x11
+cr1	: 0x0
+cr2	: 0x0
+cr3	: 0x0
+cr4	: 0x0
+cr8	: 0x0
+dr0	: 0x0
+dr1	: 0x0
+dr2	: 0x0
+dr3	: 0x0
+dr4	: 0x0
+dr5	: 0x0
+dr6	: 0xffff0ff0
+dr7	: 0x400
+st0	: 0x0
+st1	: 0x0
+st2	: 0x0
+st3	: 0x0
+st4	: 0x0
+st5	: 0x0
+st6	: 0x0
+st7	: 0x0
+eflags	: 0x46
+cs	: 0x33
+ss	: 0x28
+ds	: 0x0
+es	: 0x0
+fs	: 0x0
+gs	: 0x0
+r8b	: 0x30
+r9b	: 0x0
+r10b	: 0x10
+r11b	: 0x0
+r12b	: 0x7
+r13b	: 0xa8
+r14b	: 0x70
+r15b	: 0x7
+r8w	: 0xda30
+r9w	: 0x0
+r10w	: 0x3f10
+r11w	: 0x1000
+r12w	: 0x7
+r13w	: 0x48a8
+r14w	: 0xe170
+r15w	: 0x7
+r8d	: 0xda30
+r9d	: 0x0
+r10d	: 0xb7ed3f10
+r11d	: 0xb7e01000
+r12d	: 0x7
+r13d	: 0x555548a8
+r14d	: 0xf7ffe170
+r15d	: 0x7
+fsbase	: 0x7fffb80afc40
+gsbase	: 0x6000000
+xmm0	: 0x0
+xmm1	: 0xffffffff00ffffffffffffffffffffff
+xmm2	: 0x42494c4700352e322e325f4342494c47
+xmm3	: 0x776f6c667265766f5f
+xmm4	: 0x5f796f72747365645f766e6f63675f5f
+xmm5	: 0x0
+xmm6	: 0x0
+xmm7	: 0x0
+xmm8	: 0x0
+xmm9	: 0x0
+xmm10	: 0x0
+xmm11	: 0x0
+xmm12	: 0x0
+xmm13	: 0x0
+xmm14	: 0x0
+xmm15	: 0x0
+xmm16	: 0x0
+xmm17	: 0x0
+xmm18	: 0x0
+xmm19	: 0x0
+xmm20	: 0x0
+xmm21	: 0x0
+xmm22	: 0x0
+xmm23	: 0x0
+xmm24	: 0x0
+xmm25	: 0x0
+xmm26	: 0x0
+xmm27	: 0x0
+xmm28	: 0x0
+xmm29	: 0x0
+xmm30	: 0x0
+xmm31	: 0x0
+ymm0	: 0x0
+ymm1	: 0xffffffff00ffffffffffffffffffffff
+ymm2	: 0x42494c4700352e322e325f4342494c47
+ymm3	: 0x776f6c667265766f5f
+ymm4	: 0x5f796f72747365645f766e6f63675f5f
+ymm5	: 0x0
+ymm6	: 0x0
+ymm7	: 0x0
+ymm8	: 0x0
+ymm9	: 0x0
+ymm10	: 0x0
+ymm11	: 0x0
+ymm12	: 0x0
+ymm13	: 0x0
+ymm14	: 0x0
+ymm15	: 0x0
+ymm16	: 0x0
+ymm17	: 0x0
+ymm18	: 0x0
+ymm19	: 0x0
+ymm20	: 0x0
+ymm21	: 0x0
+ymm22	: 0x0
+ymm23	: 0x0
+ymm24	: 0x0
+ymm25	: 0x0
+ymm26	: 0x0
+ymm27	: 0x0
+ymm28	: 0x0
+ymm29	: 0x0
+ymm30	: 0x0
+ymm31	: 0x0
+zmm0	: 0x0
+zmm1	: 0x0
+zmm2	: 0x0
+zmm3	: 0x0
+zmm4	: 0x0
+zmm5	: 0x0
+zmm6	: 0x0
+zmm7	: 0x0
+zmm8	: 0x0
+zmm9	: 0x0
+zmm10	: 0x0
+zmm11	: 0x0
+zmm12	: 0x0
+zmm13	: 0x0
+zmm14	: 0x0
+zmm15	: 0x0
+zmm16	: 0x0
+zmm17	: 0x0
+zmm18	: 0x0
+zmm19	: 0x0
+zmm20	: 0x0
+zmm21	: 0x0
+zmm22	: 0x0
+zmm23	: 0x0
+zmm24	: 0x0
+zmm25	: 0x0
+zmm26	: 0x0
+zmm27	: 0x0
+zmm28	: 0x0
+zmm29	: 0x0
+zmm30	: 0x0
+zmm31	: 0x0
+Hexdump:
+90 e7 ff f7 ff 7f 00 00
+Disassembly:
+00007ffff7ffe710 [ld-linux-x86-64.so.2 + 0x002710]  90                   nop                  
+00007ffff7ffe711 [ld-linux-x86-64.so.2 + 0x002711]  e7 ff                out                  0xff, eax
+00007ffff7ffe713 [ld-linux-x86-64.so.2 + 0x002713]  f7 ff                idiv                 edi
+00007ffff7ffe715 [ld-linux-x86-64.so.2 + 0x002715]  7f 00                jg                   0x7ffff7ffe717
+00007ffff7ffe717 [ld-linux-x86-64.so.2 + 0x002717]  00 10                add                  byte ptr [rax], dl
+00007ffff7ffe719 [ld-linux-x86-64.so.2 + 0x002719]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe71b [ld-linux-x86-64.so.2 + 0x00271b]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe71d [ld-linux-x86-64.so.2 + 0x00271d]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe71f [ld-linux-x86-64.so.2 + 0x00271f]  00 90 e7 ff f7 ff    add                  byte ptr [rax - 0x80019], dl
+00007ffff7ffe725 [ld-linux-x86-64.so.2 + 0x002725]  7f 00                jg                   0x7ffff7ffe727
+00007ffff7ffe727 [ld-linux-x86-64.so.2 + 0x002727]  00 09                add                  byte ptr [rcx], cl
+00007ffff7ffe729 [ld-linux-x86-64.so.2 + 0x002729]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe72b [ld-linux-x86-64.so.2 + 0x00272b]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe72d [ld-linux-x86-64.so.2 + 0x00272d]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe72f [ld-linux-x86-64.so.2 + 0x00272f]  00 a0 e7 ff f7 ff    add                  byte ptr [rax - 0x80019], ah
+00007ffff7ffe735 [ld-linux-x86-64.so.2 + 0x002735]  7f 00                jg                   0x7ffff7ffe737
+00007ffff7ffe737 [ld-linux-x86-64.so.2 + 0x002737]  00 0b                add                  byte ptr [rbx], cl
+00007ffff7ffe739 [ld-linux-x86-64.so.2 + 0x002739]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe73b [ld-linux-x86-64.so.2 + 0x00273b]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe73d [ld-linux-x86-64.so.2 + 0x00273d]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe73f [ld-linux-x86-64.so.2 + 0x00273f]  00 a0 e7 ff f7 ff    add                  byte ptr [rax - 0x80019], ah
+00007ffff7ffe745 [ld-linux-x86-64.so.2 + 0x002745]  7f 00                jg                   0x7ffff7ffe747
+00007ffff7ffe747 [ld-linux-x86-64.so.2 + 0x002747]  00 04 00             add                  byte ptr [rax + rax], al
+00007ffff7ffe74a [ld-linux-x86-64.so.2 + 0x00274a]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe74c [ld-linux-x86-64.so.2 + 0x00274c]  00 00                add                  byte ptr [rax], al
+00007ffff7ffe74e [ld-linux-x86-64.so.2 + 0x00274e]  00 00                add                  byte ptr [rax], al
+PC = 0x00007ffff7ffe710 (/Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/lib64/ld-linux-x86-64.so.2 + 0x229710)
+
+Memory map:
+Start                End                  Perm    Label                    Image
+000000000000030000 - 000000000000031000   rwx     [GDT]                    
+000000555555554000 - 000000555555558000   r--     ls                       /Users/also/Downloads/u20-execve_ls.out
+000000555555558000 - 00000055555556c000   r-x     ls                       /Users/also/Downloads/u20-execve_ls.out
+00000055555556c000 - 000000555555575000   r--     ls                       /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/bin/ls
+000000555555576000 - 000000555555579000   rw-     ls                       /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/bin/ls
+000000555555579000 - 00000055555557b000   rwx     [hook_mem]               
+0000007fffb7dd6000 - 0000007fffb7ddc000   r--     [mmap] libselinux.so.1   
+0000007fffb7ddc000 - 0000007fffb7df5000   r-x     [mmap] libselinux.so.1   
+0000007fffb7df5000 - 0000007fffb7dfc000   r--     [mmap] libselinux.so.1   
+0000007fffb7dfc000 - 0000007fffb7dfd000   ---     [mmap] libselinux.so.1   
+0000007fffb7dfd000 - 0000007fffb7dfe000   r--     [mmap] libselinux.so.1   
+0000007fffb7dfe000 - 0000007fffb7dff000   rw-     [mmap] libselinux.so.1   
+0000007fffb7dff000 - 0000007fffb7e01000   rw-     [mmap anonymous]         
+0000007fffb7e01000 - 0000007fffb7e03000   rw-     [mmap anonymous]         
+0000007fffb7e03000 - 0000007fffb7e25000   r--     [mmap] libc.so.6         
+0000007fffb7e25000 - 0000007fffb7f9d000   r-x     [mmap] libc.so.6         
+0000007fffb7f9d000 - 0000007fffb7feb000   r--     [mmap] libc.so.6         
+0000007fffb7feb000 - 0000007fffb7fef000   r--     [mmap] libc.so.6         
+0000007fffb7fef000 - 0000007fffb7ff1000   rw-     [mmap] libc.so.6         
+0000007fffb7ff1000 - 0000007fffb7ff5000   rw-     [mmap anonymous]         
+0000007fffb7ff5000 - 0000007fffb7ff7000   r--     [mmap] libpcre2-8.so.0   
+0000007fffb7ff7000 - 0000007fffb805c000   r-x     [mmap] libpcre2-8.so.0   
+0000007fffb805c000 - 0000007fffb8084000   r--     [mmap] libpcre2-8.so.0   
+0000007fffb8084000 - 0000007fffb8085000   r--     [mmap] libpcre2-8.so.0   
+0000007fffb8085000 - 0000007fffb8086000   rw-     [mmap] libpcre2-8.so.0   
+0000007fffb8086000 - 0000007fffb8087000   r--     [mmap] libdl.so.2        
+0000007fffb8087000 - 0000007fffb8089000   r-x     [mmap] libdl.so.2        
+0000007fffb8089000 - 0000007fffb808a000   r--     [mmap] libdl.so.2        
+0000007fffb808a000 - 0000007fffb808b000   r--     [mmap] libdl.so.2        
+0000007fffb808b000 - 0000007fffb808c000   rw-     [mmap] libdl.so.2        
+0000007fffb808c000 - 0000007fffb8092000   r--     [mmap] libpthread.so.0   
+0000007fffb8092000 - 0000007fffb80a3000   r-x     [mmap] libpthread.so.0   
+0000007fffb80a3000 - 0000007fffb80a9000   r--     [mmap] libpthread.so.0   
+0000007fffb80a9000 - 0000007fffb80aa000   r--     [mmap] libpthread.so.0   
+0000007fffb80aa000 - 0000007fffb80ab000   rw-     [mmap] libpthread.so.0   
+0000007fffb80ab000 - 0000007fffb80af000   rw-     [mmap anonymous]         
+0000007fffb80af000 - 0000007fffb80b1000   rw-     [mmap anonymous]         
+0000007ffff7dd5000 - 0000007ffff7dfc000   r-x     ld-linux-x86-64.so.2     /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/lib64/ld-linux-x86-64.so.2
+0000007ffff7ffc000 - 0000007ffff7fff000   rw-     ld-linux-x86-64.so.2     /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/lib64/ld-linux-x86-64.so.2
+0000007ffffffde000 - 00000080000000e000   rwx     [stack]                  
+00ffffffffff600000 - 00ffffffffff601000   rwx     [vsyscall]               
+Syscall ERROR: ql_syscall_execve DEBUG: Fetch from non-executable memory (UC_ERR_FETCH_PROT)
+Traceback (most recent call last):
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/qiling/os/posix/posix.py", line 374, in load_syscall
+    retval = syscall_hook(self.ql, *params)
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/qiling/os/posix/syscall/unistd.py", line 623, in ql_syscall_execve
+    ql.run()
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/qiling/core.py", line 595, in run
+    self.os.run()
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/qiling/os/linux/linux.py", line 164, in run
+    thread_management.run()
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/qiling/os/linux/thread.py", line 607, in run
+    previous_thread = self._prepare_lib_patch()
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/qiling/os/linux/thread.py", line 584, in _prepare_lib_patch
+    gevent.joinall([self.main_thread], raise_error=True)
+  File "src/gevent/greenlet.py", line 1065, in gevent._gevent_cgreenlet.joinall
+  File "src/gevent/greenlet.py", line 1081, in gevent._gevent_cgreenlet.joinall
+  File "src/gevent/greenlet.py", line 373, in gevent._gevent_cgreenlet.Greenlet._raise_exception
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/gevent/_compat.py", line 49, in reraise
+    raise value.with_traceback(tb)
+  File "src/gevent/greenlet.py", line 908, in gevent._gevent_cgreenlet.Greenlet.run
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/qiling/os/linux/thread.py", line 246, in _run
+    raise e
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/qiling/os/linux/thread.py", line 242, in _run
+    self.ql.emu_start(start_address, self.exit_point, count=31337)
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/qiling/core.py", line 769, in emu_start
+    self.uc.emu_start(begin, end, timeout, count)
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/unicorn/unicorn.py", line 547, in emu_start
+    raise UcError(status)
+unicorn.unicorn.UcError: Fetch from non-executable memory (UC_ERR_FETCH_PROT)
+[Thread Manager] Stop the world.
+[Thread Manager] Thread IDs: set()
+[Thread Manager] Stop the world.
+[Thread Manager] Thread IDs: {2000}
+Saved context: fs=0x0 tls=0x0
+Set fsbase to 0x0 for [Thread 2000]
+Restored context: fs=0x0 tls=0x0
+Scheduled from 0x7ffff7dd6090.
+0x00007ffff7df0ec7: brk(inp = 0x0) = 0x555555579000
+0x00007ffff7df2015: uname(buf = 0x80000000d990) = 0x0
+access("/etc/ld.so.nohwcap", 00) = -1
+0x00007ffff7de47dc: access(path = 0x7ffff7df6082, mode = 0x0) = -0x1 (EPERM)
+access("/etc/ld.so.preload", 04) = -1
+0x00007ffff7df1e25: access(path = 0x7ffff7df8dd0, mode = 0x4) = -0x1 (EPERM)
+openat(4294967196, "/etc/ld.so.cache", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x7ffff7df6428, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+openat(4294967196, "/lib/x86_64-linux-gnu/tls/i686/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/tls/i686/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/tls/i686/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/tls/i686", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/tls/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/tls/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/tls", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/i686/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/i686/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/i686/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/i686", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64-linux-gnu/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64-linux-gnu", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/tls/i686/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/tls/i686/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/tls/i686/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/tls/i686", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/tls/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/tls/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/tls", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/i686/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/i686/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/i686/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/i686", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/usr/lib/x86_64-linux-gnu/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/usr/lib/x86_64-linux-gnu", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/tls/i686/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/tls/i686/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/tls/i686/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/tls/i686", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/tls/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/tls/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/tls/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/tls", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/i686/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/i686/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/i686/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/i686", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/x86_64/libc.so.6", 0x80000, 00) = -1
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = -0x1 (EPERM)
+stat("/lib/x86_64", 0x80000000d3e0) read/write fail
+0x00007ffff7df1c03: stat(path = 0x80000000d320, buf_ptr = 0x80000000d3e0) = -0x2 (ENOENT)
+openat(4294967196, "/lib/libc.so.6", 0x80000, 00) = 3
+0x00007ffff7df1cdb: openat(fd = 0xffffff9c, path = 0x80000000d320, flags = 0x80000, mode = 0x0) = 0x3
+read() CONTENT: b'\x7fELF\x02\x01\x01\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00>\x00\x01\x00\x00\x00\xc0A\x02\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\x18\xe7\x1e\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x008\x00\x0e\x00@\x00D\x00C\x00\x06\x00\x00\x00\x04\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x18P\x00\x00\x00\x00\x00\x00\xd8\x8e\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x80\xab\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x90\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00S\xe5td\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00P\xe5td\x04\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00Q\xe5td\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00R\xe5td\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00x8\x00\x00\x00\x00\x00\x00'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000d548, length = 0x340) = 0x340
+lseek(3, 0x40, 0) = 64
+0x00007ffff7df1df5: lseek(fd = 0x3, offset = 0x40, origin = 0x0) = 0x40
+read() CONTENT: b'\x06\x00\x00\x00\x04\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x18P\x00\x00\x00\x00\x00\x00\xd8\x8e\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x80\xab\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x90\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00S\xe5td\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00P\xe5td\x04\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00Q\xe5td\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00R\xe5td\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00x8\x00\x00\x00\x00\x00\x00x8\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000cf80, length = 0x310) = 0x310
+lseek(3, 0x350, 0) = 848
+0x00007ffff7df1df5: lseek(fd = 0x3, offset = 0x350, origin = 0x0) = 0x350
+read() CONTENT: b'\x04\x00\x00\x00\x10\x00\x00\x00\x05\x00\x00\x00GNU\x00\x02\x00\x00\xc0\x04\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000cf50, length = 0x20) = 0x20
+lseek(3, 0x370, 0) = 880
+0x00007ffff7df1df5: lseek(fd = 0x3, offset = 0x370, origin = 0x0) = 0x370
+read() CONTENT: b"\x04\x00\x00\x00\x14\x00\x00\x00\x03\x00\x00\x00GNU\x00\x18x\xe6\xb4ur\x0c|Q\x96\x9ei\xab-'o\xaem\x1d\xee\x04\x00\x00\x00\x10\x00\x00\x00\x01\x00\x00\x00GNU\x00\x00\x00\x00\x00\x03\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00"
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000cef0, length = 0x44) = 0x44
+0x00007ffff7df1c41: fstat(fd = 0x3, buf_ptr = 0x80000000d3e0) = 0x0
+lseek(3, 0x40, 0) = 64
+0x00007ffff7df1df5: lseek(fd = 0x3, offset = 0x40, origin = 0x0) = 0x40
+read() CONTENT: b'\x06\x00\x00\x00\x04\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x10\x03\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\xa0\xe6\x1b\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\xe8\x14\x02\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00$v\x17\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\x00\xa0\x19\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\xc4\xd2\x04\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x18P\x00\x00\x00\x00\x00\x00\xd8\x8e\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x80\xab\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\x80\xbb\x1e\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00p\x03\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x90\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00S\xe5td\x04\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00P\x03\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00P\xe5td\x04\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xbc\xe6\x1b\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\xd4^\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00Q\xe5td\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00R\xe5td\x04\x00\x00\x00\x88w\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00\x88\x87\x1e\x00\x00\x00\x00\x00x8\x00\x00\x00\x00\x00\x00x8\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00'
+0x00007ffff7df1da2: read(fd = 0x3, buf = 0x80000000d040, length = 0x310) = 0x310
+0x00007ffff7df1f41: mmap(addr = 0x0, length = 0x1f1660, prot = 0x1, flags = 0x802, fd = 0x3, pgoffset = 0x0) = 0x7fffb7dd6000
+mmap: unmapping memory between 0x7fffb7df8000-0x7fffb7f70000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7df8000, length = 0x178000, prot = 0x5, flags = 0x812, fd = 0x3, pgoffset = 0x22000) = 0x7fffb7df8000
+mmap: unmapping memory between 0x7fffb7f70000-0x7fffb7fbe000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7f70000, length = 0x4e000, prot = 0x1, flags = 0x812, fd = 0x3, pgoffset = 0x19a000) = 0x7fffb7f70000
+mmap: unmapping memory between 0x7fffb7fbe000-0x7fffb7fc4000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7fbe000, length = 0x6000, prot = 0x3, flags = 0x812, fd = 0x3, pgoffset = 0x1e7000) = 0x7fffb7fbe000
+mmap: unmapping memory between 0x7fffb7fc4000-0x7fffb7fc8000 to make room for fixed mapping
+0x00007ffff7df1f41: mmap(addr = 0x7fffb7fc4000, length = 0x3660, prot = 0x3, flags = 0x32, fd = 0xffffffff, pgoffset = 0x0) = 0x7fffb7fc4000
+close(3) = 0
+0x00007ffff7df1ed5: close(fd = 0x3) = 0x0
+0x00007ffff7df1f41: mmap(addr = 0x0, length = 0x2000, prot = 0x3, flags = 0x22, fd = 0xffffffff, pgoffset = 0x0) = 0x7fffb7fc8000
+0x00007ffff7dd6022: arch_prctl(code = 0x1002, addr = 0x7fffb7fc8f40) = 0x0
+Suspended at 0x7ffff7de22e8
+Saved context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Call sched_cb: <function QlLinuxThread._default_sched_cb at 0x1071cdd30>
+Set fsbase to 0x7fffb7fc8f40 for [Thread 2000]
+Restored context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Scheduled from 0x7ffff7de22e8.
+Suspended at 0x7ffff7ddf2dd
+Saved context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Call sched_cb: <function QlLinuxThread._default_sched_cb at 0x1071cdd30>
+Set fsbase to 0x7fffb7fc8f40 for [Thread 2000]
+Restored context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Scheduled from 0x7ffff7ddf2dd.
+0x00007ffff7df1ff5: mprotect(start = 0x7fffb7fbe000, mlen = 0x4000, prot = 0x1) = 0x0
+Suspended at 0x7ffff7ddf30f
+Saved context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Call sched_cb: <function QlLinuxThread._default_sched_cb at 0x1071cdd30>
+Set fsbase to 0x7fffb7fc8f40 for [Thread 2000]
+Restored context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Scheduled from 0x7ffff7ddf30f.
+Suspended at 0x7ffff7ddf2ed
+Saved context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Call sched_cb: <function QlLinuxThread._default_sched_cb at 0x1071cdd30>
+Set fsbase to 0x7fffb7fc8f40 for [Thread 2000]
+Restored context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Scheduled from 0x7ffff7ddf2ed.
+0x00007ffff7df1ff5: mprotect(start = 0x555555572000, mlen = 0x2000, prot = 0x1) = 0x0
+0x00007ffff7df1ff5: mprotect(start = 0x7ffff7ffc000, mlen = 0x1000, prot = 0x1) = 0x0
+Suspended at 0x555555559cd0
+Saved context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Call sched_cb: <function QlLinuxThread._default_sched_cb at 0x1071cdd30>
+[Thread Manager] Thread IDs: {2000}
+Set fsbase to 0x7fffb7fc8f40 for [Thread 2000]
+Restored context: fs=0x7fffb7fc8f40 tls=0x7fffb7fc8f40
+Scheduled from 0x555555559cd0.
+0x00007fffb7eba0e9: getuid() = 0x3e8
+0x00007fffb7eba109: getgid() = 0x3e8
+0x00007fffb7eba0c9: getpid() = 0x512
+0x00007fffb7e19164: rt_sigaction(signum = 0x11, act = 0x80000000d8d0, oldact = 0x0) = 0x0
+0x00007fffb7eba0f9: geteuid() = 0x3e8
+0x00007fffb7eba0d9: getppid() = 0x1024
+CPU Context:
+ah	: 0xe9
+al	: 0x30
+ch	: 0x7c
+cl	: 0x0
+dh	: 0x24
+dl	: 0x9c
+bh	: 0xf2
+bl	: 0x50
+ax	: 0xe930
+cx	: 0x7c00
+dx	: 0x249c
+bx	: 0xf250
+sp	: 0xd9d0
+bp	: 0xf958
+si	: 0x7b9c
+di	: 0x23
+ip	: 0x5594
+eax	: 0xf7ffe930
+ecx	: 0xb7de7c00
+edx	: 0x249c
+ebx	: 0xb7e6f250
+esp	: 0xd9d0
+ebp	: 0x1ef958
+esi	: 0xb7dd7b9c
+edi	: 0x23
+eip	: 0xb7f35594
+rax	: 0x7ffff7ffe930
+rbx	: 0x7fffb7e6f250
+rcx	: 0x7fffb7de7c00
+rdx	: 0x401d0000249c
+rsi	: 0x7fffb7dd7b9c
+rdi	: 0x23
+rbp	: 0x1ef958
+rsp	: 0x80000000d9d0
+r8	: 0x401d00000000
+r9	: 0x7fffb7dda070
+r10	: 0x7fffb7dd7b68
+r11	: 0x7fffb7fc5958
+r12	: 0x0
+r13	: 0x80000000da40
+r14	: 0x80000000da30
+r15	: 0x7ffff7ffd060
+rip	: 0x7fffb7f35594
+cr0	: 0x11
+cr1	: 0x0
+cr2	: 0x0
+cr3	: 0x0
+cr4	: 0x0
+cr8	: 0x0
+dr0	: 0x0
+dr1	: 0x0
+dr2	: 0x0
+dr3	: 0x0
+dr4	: 0x0
+dr5	: 0x0
+dr6	: 0xffff0ff0
+dr7	: 0x400
+st0	: 0x0
+st1	: 0x0
+st2	: 0x0
+st3	: 0x0
+st4	: 0x0
+st5	: 0x0
+st6	: 0x0
+st7	: 0x0
+eflags	: 0x6
+cs	: 0x33
+ss	: 0x28
+ds	: 0x0
+es	: 0x0
+fs	: 0x0
+gs	: 0x0
+r8b	: 0x0
+r9b	: 0x70
+r10b	: 0x68
+r11b	: 0x58
+r12b	: 0x0
+r13b	: 0x40
+r14b	: 0x30
+r15b	: 0x60
+r8w	: 0x0
+r9w	: 0xa070
+r10w	: 0x7b68
+r11w	: 0x5958
+r12w	: 0x0
+r13w	: 0xda40
+r14w	: 0xda30
+r15w	: 0xd060
+r8d	: 0x0
+r9d	: 0xb7dda070
+r10d	: 0xb7dd7b68
+r11d	: 0xb7fc5958
+r12d	: 0x0
+r13d	: 0xda40
+r14d	: 0xda30
+r15d	: 0xf7ffd060
+fsbase	: 0x7fffb7fc8f40
+gsbase	: 0x6000000
+xmm0	: 0x7fffb7f7000000007ffff7ffe920
+xmm1	: 0xffffffffffffffffffffffffff
+xmm2	: 0x455441564952505f4342494c47
+xmm3	: 0x0
+xmm4	: 0xff
+xmm5	: 0xffffffffffffffffffffffffffffffff
+xmm6	: 0xffffffffffffffffffffffffffffffff
+xmm7	: 0xffffffffffffffffffffffffffffffff
+xmm8	: 0x0
+xmm9	: 0x0
+xmm10	: 0x0
+xmm11	: 0x0
+xmm12	: 0x0
+xmm13	: 0x0
+xmm14	: 0x0
+xmm15	: 0x0
+xmm16	: 0x0
+xmm17	: 0x0
+xmm18	: 0x0
+xmm19	: 0x0
+xmm20	: 0x0
+xmm21	: 0x0
+xmm22	: 0x0
+xmm23	: 0x0
+xmm24	: 0x0
+xmm25	: 0x0
+xmm26	: 0x0
+xmm27	: 0x0
+xmm28	: 0x0
+xmm29	: 0x0
+xmm30	: 0x0
+xmm31	: 0x0
+ymm0	: 0x7fffb7f7000000007ffff7ffe920
+ymm1	: 0xffffffffffffffffffffffffff
+ymm2	: 0x455441564952505f4342494c47
+ymm3	: 0x0
+ymm4	: 0xff
+ymm5	: 0xffffffffffffffffffffffffffffffff
+ymm6	: 0xffffffffffffffffffffffffffffffff
+ymm7	: 0xffffffffffffffffffffffffffffffff
+ymm8	: 0x0
+ymm9	: 0x0
+ymm10	: 0x0
+ymm11	: 0x0
+ymm12	: 0x0
+ymm13	: 0x0
+ymm14	: 0x0
+ymm15	: 0x0
+ymm16	: 0x0
+ymm17	: 0x0
+ymm18	: 0x0
+ymm19	: 0x0
+ymm20	: 0x0
+ymm21	: 0x0
+ymm22	: 0x0
+ymm23	: 0x0
+ymm24	: 0x0
+ymm25	: 0x0
+ymm26	: 0x0
+ymm27	: 0x0
+ymm28	: 0x0
+ymm29	: 0x0
+ymm30	: 0x0
+ymm31	: 0x0
+zmm0	: 0x0
+zmm1	: 0x0
+zmm2	: 0x0
+zmm3	: 0x0
+zmm4	: 0x0
+zmm5	: 0x0
+zmm6	: 0x0
+zmm7	: 0x0
+zmm8	: 0x0
+zmm9	: 0x0
+zmm10	: 0x0
+zmm11	: 0x0
+zmm12	: 0x0
+zmm13	: 0x0
+zmm14	: 0x0
+zmm15	: 0x0
+zmm16	: 0x0
+zmm17	: 0x0
+zmm18	: 0x0
+zmm19	: 0x0
+zmm20	: 0x0
+zmm21	: 0x0
+zmm22	: 0x0
+zmm23	: 0x0
+zmm24	: 0x0
+zmm25	: 0x0
+zmm26	: 0x0
+zmm27	: 0x0
+zmm28	: 0x0
+zmm29	: 0x0
+zmm30	: 0x0
+zmm31	: 0x0
+Hexdump:
+f6 42 fc 01 75 86 48 89
+Disassembly:
+00007fffb7f35594 [[mmap] libc.so.6     + 0x13d594]  f6 42 fc 01          test                 byte ptr [rdx - 4], 1
+00007fffb7f35598 [[mmap] libc.so.6     + 0x13d598]  75 86                jne                  0x7fffb7f35520
+00007fffb7f3559a [[mmap] libc.so.6     + 0x13d59a]  48 89 d1             mov                  rcx, rdx
+00007fffb7f3559d [[mmap] libc.so.6     + 0x13d59d]  4c 29 c1             sub                  rcx, r8
+00007fffb7f355a0 [[mmap] libc.so.6     + 0x13d5a0]  48 c1 f9 02          sar                  rcx, 2
+00007fffb7f355a4 [[mmap] libc.so.6     + 0x13d5a4]  89 c9                mov                  ecx, ecx
+00007fffb7f355a6 [[mmap] libc.so.6     + 0x13d5a6]  48 8d 0c 49          lea                  rcx, [rcx + rcx*2]
+00007fffb7f355aa [[mmap] libc.so.6     + 0x13d5aa]  49 8d 0c c9          lea                  rcx, [r9 + rcx*8]
+00007fffb7f355ae [[mmap] libc.so.6     + 0x13d5ae]  0f b7 79 06          movzx                edi, word ptr [rcx + 6]
+00007fffb7f355b2 [[mmap] libc.so.6     + 0x13d5b2]  66 85 ff             test                 di, di
+00007fffb7f355b5 [[mmap] libc.so.6     + 0x13d5b5]  74 91                je                   0x7fffb7f35548
+00007fffb7f355b7 [[mmap] libc.so.6     + 0x13d5b7]  66 83 ff f1          cmp                  di, -0xf
+00007fffb7f355bb [[mmap] libc.so.6     + 0x13d5bb]  74 d3                je                   0x7fffb7f35590
+00007fffb7f355bd [[mmap] libc.so.6     + 0x13d5bd]  eb 90                jmp                  0x7fffb7f3554f
+00007fffb7f355bf [[mmap] libc.so.6     + 0x13d5bf]  45 31 e4             xor                  r12d, r12d
+00007fffb7f355c2 [[mmap] libc.so.6     + 0x13d5c2]  66 0f 1f 44 00 00    nop                  word ptr [rax + rax]
+00007fffb7f355c8 [[mmap] libc.so.6     + 0x13d5c8]  4d 85 f6             test                 r14, r14
+00007fffb7f355cb [[mmap] libc.so.6     + 0x13d5cb]  74 03                je                   0x7fffb7f355d0
+00007fffb7f355cd [[mmap] libc.so.6     + 0x13d5cd]  49 89 06             mov                  qword ptr [r14], rax
+PC = 0x00007fffb7f35594
+
+Memory map:
+Start                End                  Perm    Label                  Image
+000000000000030000 - 000000000000031000   rwx     [GDT]                  
+000000555555554000 - 000000555555559000   r--     sh                     /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/bin/sh
+000000555555559000 - 00000055555556c000   r-x     sh                     /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/bin/sh
+00000055555556c000 - 000000555555572000   r--     sh                     /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/bin/sh
+000000555555572000 - 000000555555574000   r--     sh                     /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/bin/sh
+000000555555574000 - 000000555555577000   rw-     sh                     /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/bin/sh
+000000555555577000 - 000000555555579000   rwx     [hook_mem]             
+0000007fffb7dd6000 - 0000007fffb7df8000   r--     [mmap] libc.so.6       
+0000007fffb7df8000 - 0000007fffb7f70000   r-x     [mmap] libc.so.6       
+0000007fffb7f70000 - 0000007fffb7fbe000   r--     [mmap] libc.so.6       
+0000007fffb7fbe000 - 0000007fffb7fc2000   r--     [mmap] libc.so.6       
+0000007fffb7fc2000 - 0000007fffb7fc4000   rw-     [mmap] libc.so.6       
+0000007fffb7fc4000 - 0000007fffb7fc8000   rw-     [mmap anonymous]       
+0000007fffb7fc8000 - 0000007fffb7fca000   rw-     [mmap anonymous]       
+0000007ffff7dd5000 - 0000007ffff7dfc000   r-x     ld-linux-x86-64.so.2   /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/lib64/ld-linux-x86-64.so.2
+0000007ffff7ffc000 - 0000007ffff7ffd000   r--     ld-linux-x86-64.so.2   /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/lib64/ld-linux-x86-64.so.2
+0000007ffff7ffd000 - 0000007ffff7fff000   rw-     ld-linux-x86-64.so.2   /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/lib64/ld-linux-x86-64.so.2
+0000007ffffffde000 - 00000080000000e000   rwx     [stack]                
+00ffffffffff600000 - 00ffffffffff601000   rwx     [vsyscall]             
+
+Traceback (most recent call last):
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/qiling/os/linux/thread.py", line 242, in _run
+    self.ql.emu_start(start_address, self.exit_point, count=31337)
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/qiling/core.py", line 769, in emu_start
+    self.uc.emu_start(begin, end, timeout, count)
+  File "/Users/also/.local/share/virtualenvs/AEG-yEw2vaZ4/lib/python3.9/site-packages/unicorn/unicorn.py", line 547, in emu_start
+    raise UcError(status)
+unicorn.unicorn.UcError: Invalid memory read (UC_ERR_READ_UNMAPPED)
+CPU Context:
+ah	: 0xe9
+al	: 0x30
+ch	: 0x7c
+cl	: 0x0
+dh	: 0x24
+dl	: 0x9c
+bh	: 0xf2
+bl	: 0x50
+ax	: 0xe930
+cx	: 0x7c00
+dx	: 0x249c
+bx	: 0xf250
+sp	: 0xd9d0
+bp	: 0xf958
+si	: 0x7b9c
+di	: 0x23
+ip	: 0x5594
+eax	: 0xf7ffe930
+ecx	: 0xb7de7c00
+edx	: 0x249c
+ebx	: 0xb7e6f250
+esp	: 0xd9d0
+ebp	: 0x1ef958
+esi	: 0xb7dd7b9c
+edi	: 0x23
+eip	: 0xb7f35594
+rax	: 0x7ffff7ffe930
+rbx	: 0x7fffb7e6f250
+rcx	: 0x7fffb7de7c00
+rdx	: 0x401d0000249c
+rsi	: 0x7fffb7dd7b9c
+rdi	: 0x23
+rbp	: 0x1ef958
+rsp	: 0x80000000d9d0
+r8	: 0x401d00000000
+r9	: 0x7fffb7dda070
+r10	: 0x7fffb7dd7b68
+r11	: 0x7fffb7fc5958
+r12	: 0x0
+r13	: 0x80000000da40
+r14	: 0x80000000da30
+r15	: 0x7ffff7ffd060
+rip	: 0x7fffb7f35594
+cr0	: 0x11
+cr1	: 0x0
+cr2	: 0x0
+cr3	: 0x0
+cr4	: 0x0
+cr8	: 0x0
+dr0	: 0x0
+dr1	: 0x0
+dr2	: 0x0
+dr3	: 0x0
+dr4	: 0x0
+dr5	: 0x0
+dr6	: 0xffff0ff0
+dr7	: 0x400
+st0	: 0x0
+st1	: 0x0
+st2	: 0x0
+st3	: 0x0
+st4	: 0x0
+st5	: 0x0
+st6	: 0x0
+st7	: 0x0
+eflags	: 0x6
+cs	: 0x33
+ss	: 0x28
+ds	: 0x0
+es	: 0x0
+fs	: 0x0
+gs	: 0x0
+r8b	: 0x0
+r9b	: 0x70
+r10b	: 0x68
+r11b	: 0x58
+r12b	: 0x0
+r13b	: 0x40
+r14b	: 0x30
+r15b	: 0x60
+r8w	: 0x0
+r9w	: 0xa070
+r10w	: 0x7b68
+r11w	: 0x5958
+r12w	: 0x0
+r13w	: 0xda40
+r14w	: 0xda30
+r15w	: 0xd060
+r8d	: 0x0
+r9d	: 0xb7dda070
+r10d	: 0xb7dd7b68
+r11d	: 0xb7fc5958
+r12d	: 0x0
+r13d	: 0xda40
+r14d	: 0xda30
+r15d	: 0xf7ffd060
+fsbase	: 0x7fffb7fc8f40
+gsbase	: 0x6000000
+xmm0	: 0x7fffb7f7000000007ffff7ffe920
+xmm1	: 0xffffffffffffffffffffffffff
+xmm2	: 0x455441564952505f4342494c47
+xmm3	: 0x0
+xmm4	: 0xff
+xmm5	: 0xffffffffffffffffffffffffffffffff
+xmm6	: 0xffffffffffffffffffffffffffffffff
+xmm7	: 0xffffffffffffffffffffffffffffffff
+xmm8	: 0x0
+xmm9	: 0x0
+xmm10	: 0x0
+xmm11	: 0x0
+xmm12	: 0x0
+xmm13	: 0x0
+xmm14	: 0x0
+xmm15	: 0x0
+xmm16	: 0x0
+xmm17	: 0x0
+xmm18	: 0x0
+xmm19	: 0x0
+xmm20	: 0x0
+xmm21	: 0x0
+xmm22	: 0x0
+xmm23	: 0x0
+xmm24	: 0x0
+xmm25	: 0x0
+xmm26	: 0x0
+xmm27	: 0x0
+xmm28	: 0x0
+xmm29	: 0x0
+xmm30	: 0x0
+xmm31	: 0x0
+ymm0	: 0x7fffb7f7000000007ffff7ffe920
+ymm1	: 0xffffffffffffffffffffffffff
+ymm2	: 0x455441564952505f4342494c47
+ymm3	: 0x0
+ymm4	: 0xff
+ymm5	: 0xffffffffffffffffffffffffffffffff
+ymm6	: 0xffffffffffffffffffffffffffffffff
+ymm7	: 0xffffffffffffffffffffffffffffffff
+ymm8	: 0x0
+ymm9	: 0x0
+ymm10	: 0x0
+ymm11	: 0x0
+ymm12	: 0x0
+ymm13	: 0x0
+ymm14	: 0x0
+ymm15	: 0x0
+ymm16	: 0x0
+ymm17	: 0x0
+ymm18	: 0x0
+ymm19	: 0x0
+ymm20	: 0x0
+ymm21	: 0x0
+ymm22	: 0x0
+ymm23	: 0x0
+ymm24	: 0x0
+ymm25	: 0x0
+ymm26	: 0x0
+ymm27	: 0x0
+ymm28	: 0x0
+ymm29	: 0x0
+ymm30	: 0x0
+ymm31	: 0x0
+zmm0	: 0x0
+zmm1	: 0x0
+zmm2	: 0x0
+zmm3	: 0x0
+zmm4	: 0x0
+zmm5	: 0x0
+zmm6	: 0x0
+zmm7	: 0x0
+zmm8	: 0x0
+zmm9	: 0x0
+zmm10	: 0x0
+zmm11	: 0x0
+zmm12	: 0x0
+zmm13	: 0x0
+zmm14	: 0x0
+zmm15	: 0x0
+zmm16	: 0x0
+zmm17	: 0x0
+zmm18	: 0x0
+zmm19	: 0x0
+zmm20	: 0x0
+zmm21	: 0x0
+zmm22	: 0x0
+zmm23	: 0x0
+zmm24	: 0x0
+zmm25	: 0x0
+zmm26	: 0x0
+zmm27	: 0x0
+zmm28	: 0x0
+zmm29	: 0x0
+zmm30	: 0x0
+zmm31	: 0x0
+Hexdump:
+f6 42 fc 01 75 86 48 89
+Disassembly:
+00007fffb7f35594 [[mmap] libc.so.6     + 0x13d594]  f6 42 fc 01          test                 byte ptr [rdx - 4], 1
+00007fffb7f35598 [[mmap] libc.so.6     + 0x13d598]  75 86                jne                  0x7fffb7f35520
+00007fffb7f3559a [[mmap] libc.so.6     + 0x13d59a]  48 89 d1             mov                  rcx, rdx
+00007fffb7f3559d [[mmap] libc.so.6     + 0x13d59d]  4c 29 c1             sub                  rcx, r8
+00007fffb7f355a0 [[mmap] libc.so.6     + 0x13d5a0]  48 c1 f9 02          sar                  rcx, 2
+00007fffb7f355a4 [[mmap] libc.so.6     + 0x13d5a4]  89 c9                mov                  ecx, ecx
+00007fffb7f355a6 [[mmap] libc.so.6     + 0x13d5a6]  48 8d 0c 49          lea                  rcx, [rcx + rcx*2]
+00007fffb7f355aa [[mmap] libc.so.6     + 0x13d5aa]  49 8d 0c c9          lea                  rcx, [r9 + rcx*8]
+00007fffb7f355ae [[mmap] libc.so.6     + 0x13d5ae]  0f b7 79 06          movzx                edi, word ptr [rcx + 6]
+00007fffb7f355b2 [[mmap] libc.so.6     + 0x13d5b2]  66 85 ff             test                 di, di
+00007fffb7f355b5 [[mmap] libc.so.6     + 0x13d5b5]  74 91                je                   0x7fffb7f35548
+00007fffb7f355b7 [[mmap] libc.so.6     + 0x13d5b7]  66 83 ff f1          cmp                  di, -0xf
+00007fffb7f355bb [[mmap] libc.so.6     + 0x13d5bb]  74 d3                je                   0x7fffb7f35590
+00007fffb7f355bd [[mmap] libc.so.6     + 0x13d5bd]  eb 90                jmp                  0x7fffb7f3554f
+00007fffb7f355bf [[mmap] libc.so.6     + 0x13d5bf]  45 31 e4             xor                  r12d, r12d
+00007fffb7f355c2 [[mmap] libc.so.6     + 0x13d5c2]  66 0f 1f 44 00 00    nop                  word ptr [rax + rax]
+00007fffb7f355c8 [[mmap] libc.so.6     + 0x13d5c8]  4d 85 f6             test                 r14, r14
+00007fffb7f355cb [[mmap] libc.so.6     + 0x13d5cb]  74 03                je                   0x7fffb7f355d0
+00007fffb7f355cd [[mmap] libc.so.6     + 0x13d5cd]  49 89 06             mov                  qword ptr [r14], rax
+PC = 0x00007fffb7f35594
+
+Memory map:
+Start                End                  Perm    Label                  Image
+000000000000030000 - 000000000000031000   rwx     [GDT]                  
+000000555555554000 - 000000555555559000   r--     sh                     /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/bin/sh
+000000555555559000 - 00000055555556c000   r-x     sh                     /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/bin/sh
+00000055555556c000 - 000000555555572000   r--     sh                     /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/bin/sh
+000000555555572000 - 000000555555574000   r--     sh                     /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/bin/sh
+000000555555574000 - 000000555555577000   rw-     sh                     /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/bin/sh
+000000555555577000 - 000000555555579000   rwx     [hook_mem]             
+0000007fffb7dd6000 - 0000007fffb7df8000   r--     [mmap] libc.so.6       
+0000007fffb7df8000 - 0000007fffb7f70000   r-x     [mmap] libc.so.6       
+0000007fffb7f70000 - 0000007fffb7fbe000   r--     [mmap] libc.so.6       
+0000007fffb7fbe000 - 0000007fffb7fc2000   r--     [mmap] libc.so.6       
+0000007fffb7fc2000 - 0000007fffb7fc4000   rw-     [mmap] libc.so.6       
+0000007fffb7fc4000 - 0000007fffb7fc8000   rw-     [mmap anonymous]       
+0000007fffb7fc8000 - 0000007fffb7fca000   rw-     [mmap anonymous]       
+0000007ffff7dd5000 - 0000007ffff7dfc000   r-x     ld-linux-x86-64.so.2   /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/lib64/ld-linux-x86-64.so.2
+0000007ffff7ffc000 - 0000007ffff7ffd000   r--     ld-linux-x86-64.so.2   /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/lib64/ld-linux-x86-64.so.2
+0000007ffff7ffd000 - 0000007ffff7fff000   rw-     ld-linux-x86-64.so.2   /Users/also/main_workspace/Project/AEG/Puppet/Config/rootfs/x8664_linux_u20/lib64/ld-linux-x86-64.so.2
+0000007ffffffde000 - 00000080000000e000   rwx     [stack]                
+00ffffffffff600000 - 00ffffffffff601000   rwx     [vsyscall]             

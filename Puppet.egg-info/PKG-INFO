@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: Puppet
+Version: 0.1.0
+Summary: Cross-Platform Timeless Dynamic Debugging Component Library Built on Qiling
+Home-page: https://github.com/Alsoprach/Puppet
+Author: Alsoprach
+Author-email: Alsoprach@gmail.com
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+
+Puppet
+======
+
+.. image:: https://img.shields.io/pypi/v/Puppet.svg
+    :target: https://pypi.python.org/pypi/Puppet
+    :alt: Latest PyPI version
+
+
+
+Cross-Platform Timeless Dynamic and Static Analysis Component Library Built on Qiling
+
+Usage
+-----
+
+Installation
+------------
+
+Requirements
+^^^^^^^^^^^^
+
+Compatibility
+-------------
+
+Licence
+-------
+
+Authors
+-------
+
+`Puppet` was written by `Alsoprach <Alsoprach@gmail.com>`_.
