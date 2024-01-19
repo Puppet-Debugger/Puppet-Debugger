@@ -7,7 +7,7 @@ Puppet
 
 
 
-Cross-Platform Timeless Dynamic and Static Analysis Component Library Built on Qiling
+Cross-platform Timeless Debugger Backend based on Qiling
 
 Usage
 -----
