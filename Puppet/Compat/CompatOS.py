@@ -4,6 +4,8 @@ from typing import Union, Any, AnyStr
 from qiling import Qiling
 from qiling.extensions import pipe
 
+from Puppet.Auxiliary.Data import SegmentType, PermissionType
+
 
 class QilingMem:
     ql: Qiling
@@ -13,6 +15,45 @@ class QilingMem:
 
     def mem_write(self, address: int, data: bytes):
         self.ql.mem.write(address, data)
+
+    def mmap_read(self):
+        return self.ql.mem.get_mapinfo()
+
+    def mmap_filter(self, segment_type: SegmentType = None, permission_type: PermissionType = None):
+        mmap_output = self.ql.mem.get_mapinfo()
+
+        def segment_length(mem_seg_start, mem_seg_end):
+            return mem_seg_end - mem_seg_start
+
+        def is_executable(mem_seg_start, mem_seg_end):
+            # 示例条件，实际条件根据需要调整
+            # 和文件类型强相关，后期需要进行多态调整
+            return mem_seg_start < 0x555555566000
+
+        filtered_segments = []
+        for segment in mmap_output:
+            start, end, perms, name, _ = segment
+            if permission_type.value and permission_type.value not in perms:
+                continue
+
+            if segment_type.value:
+                if segment_type.value == 'executable' and not is_executable(start, end):
+                    continue
+                if segment_type.value == 'heap' and 'heap' not in name:
+                    continue
+                if segment_type.value == 'libc' and 'libc' not in name:
+                    continue
+                if segment_type.value == 'ld' and 'ld' not in name:
+                    continue
+                if segment_type.value == 'stack' and 'stack' not in name:
+                    continue
+                if segment_type.value == 'other' and any(
+                        keyword in name for keyword in ['heap', 'libc', 'ld', 'stack']):
+                    continue
+
+            filtered_segments.append((start, end, segment_length(start, end), name))
+
+        return filtered_segments
 
 
 class QilingFs:
